@@ -11,7 +11,6 @@ genders = ((1, 'Male'), (2, 'Female'))
 class User(AbstractUser):
     is_student = models.BooleanField(default=False)
     is_teacher = models.BooleanField(default=False)
-    image = models.ImageField(upload_to='images/')
 
 
 class Student(models.Model):
