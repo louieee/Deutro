@@ -92,6 +92,7 @@
         text-align: left;
     }
 
+
     /* sort out borders */
     #flip-scroll th {
         border-bottom: 0;
@@ -107,7 +108,6 @@
     #flip-scroll tbody tr {
         border-left: 1px solid #babcbf;
     }
-
     #flip-scroll th:last-child,
     #flip-scroll td:last-child {
         border-bottom: 1px solid #babcbf;

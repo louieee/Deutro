@@ -15,17 +15,16 @@
     .mail-box .lg-side {
         width: 70%;
     }
-
     /*-----*/
     .custom-bar-chart {
         margin-bottom: 40px;
     }
 
     /*chat room*/
+
     .chat-room aside {
         display: block;
     }
-
     .chat-room .left-side, .chat-room .mid-side, .chat-room .right-side, .chat-room .left-side footer {
         width: 100%;
     }
@@ -47,12 +46,10 @@
         border-radius: 4px 4px 0 0;
         -webit-border-radius: 4px 4px 0 0;
     }
-
     .chat-room .left-side footer {
         border-radius: 0 0 4px 4px;
         -webkit-border-radius: 0 0 4px 4px;
     }
-
     /**/
     .chat-room .right-side .user-head {
         float: left;
@@ -79,6 +76,7 @@
         margin-bottom: 0 !important;
     }
 
+
 }
 
 @media (max-width: 768px) {
@@ -88,6 +86,7 @@
     }
 
     /*sidebar*/
+
     #sidebar {
         height: auto;
         overflow: hidden;
@@ -95,6 +94,7 @@
         width: 100%;
         z-index: 1001;
     }
+
 
     /* body container */
     #main-content {
@@ -109,7 +109,6 @@
     #sidebar > ul > li {
         margin: 0 10px 5px 10px;
     }
-
     #sidebar > ul > li > a {
         height: 35px;
         line-height: 35px;
@@ -124,7 +123,6 @@
     .mail-info, .mail-info:hover {
         display: none !important;
     }
-
     #sidebar ul > li > a .arrow, #sidebar > ul > li > a .arrow.open {
         margin-right: 10px;
         margin-top: 15px;
@@ -138,14 +136,13 @@
     #sidebar > ul > li > a, #sidebar > ul > li > ul.sub > li {
         width: 100%;
     }
-
     #sidebar > ul > li > ul.sub > li > a {
         background: transparent !important;
     }
-
     #sidebar > ul > li > ul.sub > li > a:hover {
 
     }
+
 
     /* sidebar */
     #sidebar {
@@ -168,7 +165,9 @@
         border-right: 15px solid transparent;
     }
 
+
     /*---------*/
+
     .modal-footer .btn {
         margin-bottom: 0px !important;
     }
@@ -271,9 +270,11 @@
     }
 
     /*--*/
+
     /*.chart-position {*/
     /*margin-top: 0px;*/
     /*}*/
+
     .timeline-desk .album a {
         margin-bottom: 5px;
         margin-right: 4px;
@@ -296,12 +297,12 @@
     .dcjq-icon {
         top: 10px;
     }
-
     ul.sidebar-menu li ul.sub li a {
         padding: 0;
     }
 
     /*---*/
+
     .img-responsive {
         width: 100%;
     }
@@ -325,7 +326,6 @@
     #top_menu .nav > li, ul.top-menu > li {
         float: right;
     }
-
     .hidden-phone {
         display: none !important;
     }
@@ -360,7 +360,6 @@
     .chat-room aside {
         display: block;
     }
-
     .chat-room .left-side, .chat-room .mid-side, .chat-room .right-side, .chat-room .left-side footer {
         width: 100%;
     }
@@ -382,7 +381,6 @@
         border-radius: 4px 4px 0 0;
         -webit-border-radius: 4px 4px 0 0;
     }
-
     .chat-room .left-side footer {
         border-radius: 0 0 4px 4px;
         -webkit-border-radius: 0 0 4px 4px;
@@ -465,7 +463,6 @@
         margin: 10% auto;
         max-width: 310px;
     }
-
     .lock-input {
         width: 82%;
     }
