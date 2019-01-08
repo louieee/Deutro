@@ -10,50 +10,50 @@
                     <form class="bg-important" action="">
                         <div class="login-wrap">
                             <br/>
-                            <h1 class="text-center text-primary">Student Sign up</h1>
+                            <h1 class="text-center text-light"><strong>Student Sign up</strong></h1>
                             <div class="form-group">
-                                <h4 class="pull-left text-info">First Name:</h4>
+                                <h4 class="pull-left text-light">First Name:</h4>
                                 <input type="text" class="form-control" name="firstname" placeholder="First Name">
                             </div>
                             <div class="form-group">
-                                <h4 class="pull-left text-info">Last Name:</h4>
+                                <h4 class="pull-left text-light">Last Name:</h4>
                                 <input type="text" class="form-control" name="lastname" placeholder="Last Name">
                             </div>
                             <div class="form-group">
-                                <h4 class="pull-left text-info">Date of Birth:</h4>
+                                <h4 class="pull-left text-light">Date of Birth:</h4>
                                 <input type="date" class="form-control" name="age" placeholder="D.O.B">
                             </div>
                             <div class="media-left radio">
-                                <label class="text-info">
+                                <label class="text-light">
                                     <input type="radio" name="gender" id="optionsRadios1" value="Male" checked>
                                     Male
                                 </label>
                             </div>
                             <div class="media-right radio">
-                                <label class="text-info">
+                                <label class="text-light">
                                     <input type="radio" name="gender" id="optionsRadios2" value="Female">
                                     Female
                                 </label>
                             </div>
 
                             <div class="form-group">
-                                <h4 class="pull-left text-info">Entry Year:</h4>
+                                <h4 class="pull-left text-light">Entry Year:</h4>
                                 <input type="number" class="form-control" name="year" value={% now 'Y' %}>
                             </div>
                             <div class="media-left radio">
-                                <label class="text-info">
+                                <label class="text-light">
                                     <input type="radio" name="is_primary" id="optionsRadios1" value="True" checked>
                                     Primary School Student
                                 </label>
                             </div>
                             <div class="media-right radio">
-                                <label class="text-info">
+                                <label class="text-light">
                                     <input type="radio" name="is_primary" id="optionsRadios2" value="False">
                                     Secondary School Student
                                 </label>
                             </div>
                             <div class="form-group">
-                                <h4 class="pull-left text-info">School:</h4>
+                                <h4 class="pull-left text-light">School:</h4>
                                 <select class="form-control" name="stage">
                                     {% for school in schools %}
                                         <option>school.name</option>
@@ -61,7 +61,7 @@
                                 </select>
                             </div>
                             <div class="form-group">
-                                <h4 class="pull-left text-info">Class:</h4>
+                                <h4 class="pull-left text-light">Class:</h4>
                                 <select class="form-control" name="stage">
                                     <option>1</option>
                                     <option>2</option>
@@ -72,11 +72,11 @@
                                 </select>
                             </div>
                             <div class="form-group">
-                                <h4 class="pull-left text-info">Password:</h4>
+                                <h4 class="pull-left text-light">Password:</h4>
                                 <input type="password" class="form-control" name="password1" placeholder="Password">
                             </div>
                             <div class="form-group">
-                                <h4 class="pull-left text-info">Confirm Password:</h4>
+                                <h4 class="pull-left text-light">Confirm Password:</h4>
                                 <input type="password" class="form-control" name="password2"
                                        placeholder=" Confirm Password">
                             </div>

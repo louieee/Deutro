@@ -9,5 +9,4 @@ class School(models.Model):
     phone = models.CharField(max_length=255)
     website = models.URLField()
     email = models.EmailField()
-    motto = models.CharField(max_length=255, default=None)
     Image = models.ImageField(upload_to='images/', default=None)

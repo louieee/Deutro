@@ -2,247 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01593eba-d2bb-4c5b-bde5-a18b28889969" name="Default Changelist" comment="designed templates for all except teacher and student templates">
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/Readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/advanced_form_components.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/advanced_table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/basic_table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/blank.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/buttons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/calendar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/chartjs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/chat_room.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/contactform.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/contactform/Readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/contactform/contactform.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/credits.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/css/style-responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/css/table-responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/css/to-do.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/css/zabuto_calendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/dropzone.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/faq.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/file_upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/flot_chart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/font_awesome.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/form_component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/form_validation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/gallery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/general.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/google_maps.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/grids.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/500.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/blog-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/checkbox-gray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/friends/fr-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/friends/fr-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/friends/fr-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/friends/fr-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/friends/fr-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/friends/fr-06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/friends/fr-07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/friends/fr-08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/friends/fr-09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/friends/fr-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/friends/fr-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/instagram.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/login-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/lorde.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/ny.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/portfolio/port01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/portfolio/port02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/portfolio/port03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/portfolio/port04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/portfolio/port05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/portfolio/port06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/product.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/profile-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/profile-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/radio-gray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/ui-danro.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/ui-divya.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/ui-sam.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/ui-sherman.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/ui-zac.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/weather.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/img/zoom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/inbox.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/index - Copy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/inline_editor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/invoice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/advanced-datatable/css/DT_bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/advanced-datatable/css/demo_page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/advanced-datatable/css/demo_table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/advanced-datatable/css/demo_table_jui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/advanced-datatable/css/jquery.dataTables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/advanced-datatable/css/jquery.dataTables_themeroller.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/advanced-datatable/images/Sorting icons.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/advanced-datatable/images/back_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/advanced-datatable/images/back_enabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/advanced-datatable/images/back_enabled_hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/advanced-datatable/images/details_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/advanced-datatable/images/details_open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/advanced-datatable/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/advanced-datatable/images/forward_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/advanced-datatable/images/forward_enabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/advanced-datatable/images/forward_enabled_hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/advanced-datatable/images/sort_asc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/advanced-datatable/images/sort_asc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/advanced-datatable/images/sort_both.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/advanced-datatable/images/sort_desc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/advanced-datatable/images/sort_desc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/advanced-datatable/js/DT_bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/advanced-datatable/js/jquery.dataTables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/advanced-datatable/js/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/advanced-datatable/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/advanced-form-components.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/bootstrap-datepicker/css/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/bootstrap-datepicker/js/bootstrap-datepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/bootstrap-daterangepicker/date.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/bootstrap-daterangepicker/daterangepicker-bs3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/bootstrap-daterangepicker/daterangepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/bootstrap-daterangepicker/daterangepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/bootstrap-daterangepicker/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/bootstrap-datetimepicker/css/datetimepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/bootstrap-fileupload/bootstrap-fileupload.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/bootstrap-fileupload/bootstrap-fileupload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/bootstrap-inputmask/bootstrap-inputmask.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/bootstrap-switch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/bootstrap-timepicker/compiled/timepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/bootstrap-timepicker/js/bootstrap-timepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/bootstrap-wysihtml5/bootstrap-wysihtml5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/bootstrap-wysihtml5/bootstrap-wysihtml5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/bootstrap-wysihtml5/wysihtml5-0.3.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/calendar-conf-events.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/chart-master/Chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/chartjs-conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/ckeditor/ckeditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/common-scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/dropzone/css/dropzone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/dropzone/dropzone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/dropzone/images/spritemap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/dropzone/images/spritemap@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/easy-pie-chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/fancybox/jquery.fancybox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/fancybox/jquery.fancybox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/file-uploader/css/jquery.fileupload-noscript.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/file-uploader/css/jquery.fileupload-ui-noscript.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/file-uploader/css/jquery.fileupload-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/file-uploader/css/jquery.fileupload.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/file-uploader/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/file-uploader/img/progressbar.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/file-uploader/js/cors/jquery.xdr-transport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/file-uploader/js/jquery.fileupload-audio.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/file-uploader/js/jquery.fileupload-image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/file-uploader/js/jquery.fileupload-process.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/file-uploader/js/jquery.fileupload-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/file-uploader/js/jquery.fileupload-validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/file-uploader/js/jquery.fileupload-video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/file-uploader/js/jquery.fileupload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/file-uploader/js/jquery.iframe-transport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/file-uploader/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/file-uploader/js/vendor/jquery.ui.widget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/flot/jquery.flot.crosshair.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/flot/jquery.flot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/flot/jquery.flot.pie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/flot/jquery.flot.resize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/flot/jquery.flot.stack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/flotchart-conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/form-component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/form-validation-script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/fullcalendar/bootstrap-fullcalendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/fullcalendar/fullcalendar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/google-maps/data/points.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/google-maps/maplace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/gritter-conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/gritter/css/jquery.gritter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/gritter/css/jquery.gritter0.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/gritter/images/gritter-light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/gritter/images/gritter-long.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/gritter/images/gritter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/gritter/images/ie-spacer.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/gritter/js/jquery.gritter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/jquery-easy-pie-chart/jquery.easy-pie-chart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/jquery-easy-pie-chart/jquery.easy-pie-chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/jquery-ui-1.9.2.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/jquery.backstretch.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/jquery.dcjqaccordion.2.7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/jquery.nicescroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/jquery.scrollTo.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/jquery.sparkline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/jquery.tagsinput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/jquery.ui.touch-punch.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/morris-conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/morris/morris.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/php-mail-form/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/raphael/raphael.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/sparkline-chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/tasks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/xchart/d3.v3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/xchart/xcharts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/xchart/xcharts.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lib/zabuto_calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lobby.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/lock_screen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/mail_compose.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/mail_view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/morris.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/panels.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/pricing_table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/responsive_table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/todo_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/Dashio/xchart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/extra_js/alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/extra_js/button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/extra_js/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/extra_js/collapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/extra_js/dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/extra_js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/extra_js/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/extra_js/popover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/extra_js/scrollspy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/extra_js/tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/extra_js/tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/extra_js/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card/migrations/0002_remove_card_expiry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/migrations/0003_auto_20190108_0150.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student/migrations/0002_student_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher/migrations/0002_teacher_image.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/account/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/account/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/account/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/account/signup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/templates/account/signup_student.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/account/signup_student.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/templates/account/signup_teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/account/signup_teacher.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/card/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/templates/card/create_card.html" beforeDir="false" afterPath="$PROJECT_DIR$/card/templates/card/create_card.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/result/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/school/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/school/templates/school/add_school.html" beforeDir="false" afterPath="$PROJECT_DIR$/school/templates/school/add_school.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/templates/school/school_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/school/templates/school/school_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/school/templates/school/school_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/school/templates/school/school_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/student/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/templates/student/assignment_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/student/templates/student/assignment_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/templates/student/assignments.html" beforeDir="false" afterPath="$PROJECT_DIR$/student/templates/student/assignments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/templates/student/check_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/student/templates/student/check_result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/templates/student/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/student/templates/student/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/teacher/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/templates/teacher/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/teacher/templates/teacher/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/templates/teacher/give_assignment.html" beforeDir="false" afterPath="$PROJECT_DIR$/teacher/templates/teacher/give_assignment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/templates/teacher/upload_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/teacher/templates/teacher/upload_result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/templates/teacher/view_assignments.html" beforeDir="false" afterPath="$PROJECT_DIR$/teacher/templates/teacher/view_assignments.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
@@ -274,33 +75,33 @@
         <counts>
           <entry key="css" value="4" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="93" />
+          <entry key="html" value="105" />
           <entry key="js" value="2" />
-          <entry key="py" value="103" />
+          <entry key="py" value="104" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="4" />
-          <entry key="HTML" value="93" />
+          <entry key="HTML" value="105" />
           <entry key="JavaScript" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="103" />
+          <entry key="Python" value="104" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="2" />
-          <entry key="html" value="6663" />
+          <entry key="html" value="6784" />
           <entry key="py" value="5426" />
-          <entry key="txt" value="342" />
+          <entry key="txt" value="425" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="6663" />
-          <entry key="PLAIN_TEXT" value="342" />
+          <entry key="HTML" value="6784" />
+          <entry key="PLAIN_TEXT" value="425" />
           <entry key="Python" value="5426" />
         </counts>
       </usages-collector>
@@ -309,88 +110,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/teacher/templates/teacher/give_assignment.html">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            <state relative-caret-position="212">
+              <caret line="102" column="22" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/teacher/templates/teacher/upload_result.html">
+        <entry file="file://$PROJECT_DIR$/account/templates/account/signup_teacher.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="33" column="83" lean-forward="true" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
+            <state relative-caret-position="204">
+              <caret line="12" column="95" selection-start-line="12" selection-start-column="95" selection-end-line="12" selection-end-column="95" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/card/templates/card/create_card.html">
+        <entry file="file://$PROJECT_DIR$/school/templates/school/school_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="68">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/card/models.py">
+        <entry file="file://$PROJECT_DIR$/student/templates/student/assignment_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+            <state relative-caret-position="100">
+              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/result/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/teacher/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/teacher/urls.py">
+        <entry file="file://$PROJECT_DIR$/student/templates/student/assignments.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Deutro/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/student/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+              <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -398,8 +157,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/student/templates/student/check_result.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="35" column="10" lean-forward="true" selection-end-line="36" selection-end-column="14" />
+            <state relative-caret-position="221">
+              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/student/templates/student/dashboard.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/school/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/school/templates/school/add_school.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="29" column="78" lean-forward="true" selection-start-line="29" selection-start-column="78" selection-end-line="29" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/school/templates/school/school_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -413,6 +208,15 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>info</find>
+      <find>primary</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>light</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -428,7 +232,6 @@
         <option value="$PROJECT_DIR$/school/admin.py" />
         <option value="$PROJECT_DIR$/student/admin.py" />
         <option value="$PROJECT_DIR$/student/decorators.py" />
-        <option value="$PROJECT_DIR$/school/models.py" />
         <option value="$PROJECT_DIR$/teacher/admin.py" />
         <option value="$PROJECT_DIR$/Deutro/settings.py" />
         <option value="$PROJECT_DIR$/account/templates/account/dashboard.html" />
@@ -454,14 +257,8 @@
         <option value="$PROJECT_DIR$/Deutro/static/Dashio/index.html" />
         <option value="$PROJECT_DIR$/account/templates/account/login.html" />
         <option value="$PROJECT_DIR$/account/templates/account/signup.html" />
-        <option value="$PROJECT_DIR$/account/templates/account/signup_student.html" />
-        <option value="$PROJECT_DIR$/account/templates/account/signup_teacher.html" />
-        <option value="$PROJECT_DIR$/templates/home.html" />
-        <option value="$PROJECT_DIR$/school/templates/school/add_school.html" />
-        <option value="$PROJECT_DIR$/school/templates/school/school_list.html" />
         <option value="$PROJECT_DIR$/school/templates/school/school_detail.html" />
         <option value="$PROJECT_DIR$/Deutro/static/Dashio/font_awesome.html" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/assignment/models.py" />
         <option value="$PROJECT_DIR$/student/templates/student/assignments.html" />
         <option value="$PROJECT_DIR$/student/templates/student/assignment_detail.html" />
@@ -476,6 +273,13 @@
         <option value="$PROJECT_DIR$/result/models.py" />
         <option value="$PROJECT_DIR$/student/models.py" />
         <option value="$PROJECT_DIR$/teacher/models.py" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
+        <option value="$PROJECT_DIR$/account/templates/account/signup_student.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/account/templates/account/signup_teacher.html" />
+        <option value="$PROJECT_DIR$/school/templates/school/school_list.html" />
+        <option value="$PROJECT_DIR$/school/models.py" />
+        <option value="$PROJECT_DIR$/school/templates/school/add_school.html" />
       </list>
     </option>
   </component>
@@ -508,6 +312,19 @@
             <path>
               <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
               <item name="Deutro" type="462c0819:PsiDirectoryNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="account" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -615,16 +432,16 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\PycharmProjects\Deutro\templates" />
+      <recent name="C:\Users\USER\PycharmProjects\Deutro\teacher" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\PycharmProjects\Deutro\Deutro\static\my_images" />
       <recent name="C:\Users\USER\PycharmProjects\Deutro\Deutro\static\bootstrap" />
       <recent name="C:\Users\USER\PycharmProjects\Deutro\Deutro\static" />
       <recent name="C:\Users\USER\PycharmProjects\Deutro\teacher" />
       <recent name="C:\Users\USER\PycharmProjects\Deutro\student" />
-      <recent name="C:\Users\USER\PycharmProjects\Deutro\school" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\USER\PycharmProjects\Deutro\templates" />
-      <recent name="C:\Users\USER\PycharmProjects\Deutro\teacher" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -724,7 +541,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546796468425</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Designed all templates and updated Result, card, student and teacher models">
+      <created>1546908950958</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1546908950959</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -824,7 +648,8 @@
     <MESSAGE value="Added views.py, urls.py and templates to the required models" />
     <MESSAGE value="Added dashio template and base html" />
     <MESSAGE value="designed templates for all except teacher and student templates" />
-    <option name="LAST_COMMIT_MESSAGE" value="designed templates for all except teacher and student templates" />
+    <MESSAGE value="Designed all templates and updated Result, card, student and teacher models" />
+    <option name="LAST_COMMIT_MESSAGE" value="Designed all templates and updated Result, card, student and teacher models" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -937,20 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/account/templates/account/signup_teacher.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="86" selection-end-line="87" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/school/templates/school/add_school.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Deutro/static/bootstrap/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -971,24 +782,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/school/templates/school/school_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Deutro/static/Dashio/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7361">
           <caret line="433" column="38" selection-start-line="412" selection-start-column="32" selection-end-line="433" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/school/templates/school/school_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
@@ -1006,47 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/school/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="28" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="62" column="30" lean-forward="true" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student/templates/student/assignment_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/templates/account/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="63" column="10" selection-start-line="3" selection-start-column="4" selection-end-line="63" selection-end-column="10" />
-          <folding>
-            <element signature="e#73#3340#0#HTML" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student/templates/student/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="59" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/teacher/templates/teacher/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
@@ -1054,27 +810,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/student/templates/student/assignments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="9" column="31" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/teacher/templates/teacher/view_assignments.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/templates/account/signup_student.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="94" selection-end-column="10" />
-          <folding>
-            <element signature="e#73#5369#0#HTML" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1098,24 +837,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/student/templates/student/check_result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="35" column="10" lean-forward="true" selection-end-line="36" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/teacher/templates/teacher/upload_result.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
-          <caret line="33" column="83" lean-forward="true" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
+          <caret line="33" column="83" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/card/templates/card/create_card.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1129,10 +861,7 @@
     <entry file="file://$PROJECT_DIR$/result/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -1146,24 +875,115 @@
     <entry file="file://$PROJECT_DIR$/teacher/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/teacher/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Deutro/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/templates/account/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/templates/account/signup_student.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/templates/account/signup_teacher.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="95" selection-start-line="12" selection-start-column="95" selection-end-line="12" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/school/templates/school/school_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student/templates/student/assignment_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student/templates/student/check_result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student/templates/student/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="102" column="22" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student/templates/student/assignments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/school/templates/school/school_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/school/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/school/templates/school/add_school.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="29" column="78" lean-forward="true" selection-start-line="29" selection-start-column="78" selection-end-line="29" selection-end-column="78" />
         </state>
       </provider>
     </entry>
