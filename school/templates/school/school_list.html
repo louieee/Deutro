@@ -1,1 +1,26 @@
-SCHOOL LIST
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+
+    <br/><br/><br/>
+    <h2 class="text-center text-info"><strong>List of all Schools</strong></h2>
+    {% for school in schools %}
+        <div class="col-lg-3 col-md-3 col-sm-4 mb">
+            <div class="weather-2 pn ">
+                <div class="weather-2-header">
+                    <div class="row">
+                        <div class="col-sm-12 col-xs-12">
+                            <p><strong>{{ school.name }}</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row centered">
+                    <img src="{% url '{{ school.image.url }}' %}" class="img-rounded" width="200">
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+
+
+
+{% endblock %}

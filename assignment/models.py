@@ -17,3 +17,6 @@ class Assignment(models.Model):
     file = models.FileField(upload_to='assignments/', default=None)
     stage = models.PositiveIntegerField(validators=[MaxValueValidator(6)])
     school = models.ForeignKey(School, on_delete=models.CASCADE)
+
+    def summary(self):
+        return self.body[:100]

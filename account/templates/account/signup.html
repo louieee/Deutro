@@ -1,5 +1,29 @@
 {% extends 'base.html' %}
 {% load staticfiles %}
 {% block content %}
-    <H1>SIGN UP</H1>
+    <div class="container">
+        <form class="form-login" action="">
+            <h2 class="form-login-heading">Sign Up</h2>
+            <div>
+                <h2> I am a </h2>
+                <a class="btn btn-theme03" href="{% static 'Dashio/login.html' %}">Student</a>
+                <a class="btn btn-theme02" href="{% static 'Dashio/login.html' %}">Teacher</a>
+            </div>
+            <br>
+        </form>
+    </div>
+
+    <footer class="site-footer navbar-fixed-bottom ">
+        <div class="text-center">
+            <p>
+                &copy; Copyrights <strong>Deutro</strong>. All Rights Reserved
+            </p>
+            <a href="{% static 'Dashio/index.html' %}" class="go-top">
+                <i class="fa fa-angle-up"></i>
+            </a>
+        </div>
+    </footer>
+    <script src="{% static 'Dashio/lib/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'Dashio/lib/bootstrap/js/bootstrap.min.js' %}"></script>
+
 {% endblock %}

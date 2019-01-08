@@ -1,5 +1,30 @@
 {% extends 'base.html' %}
 {% load staticfiles %}
 {% block content %}
-    <H1>VIEW ASSIGNMENTS</H1>
+    {% for assignment in assignments %}
+        <div class="col-md-12 col-sm-12 col-xs-12 mt-4">
+            <div class="card-group bg-dark">
+                <div class="card-body d-flex flex-column align-items-start">
+                    <strong class="d-inline-block mb-2 text-success">{{ assignment.subject }}</strong>
+                    <h3 class="mb-0">
+                        <a class="text-light" href="#">{{ assignment.title }}</a>
+                    </h3>
+                    <div class="mb-1 text-light"><h5>Date Given: {{ assignment.date_given }}
+                        AT {{ assignment.date_given }}</h5></div>
+                    <div class="mb-1 text-light"><h5>Date To Be Submitted: {{ assignment.submission_date }}
+                        AT {{ assignment.submission_date }}</h5></div>
+                    <div class="card-img-top">
+                        <img class="card-img img-responsive" src="{% url '{{ assignment.image.url }}' %}" height="200"/>
+                    </div>
+                    <hr>
+                    <p class="card-text text-light mb-auto">{{ assignment.body }}</p>
+                    <a href="{% url '{{ assignment.file.url }}' %}"><h5>Download Attachment</h5></a>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+
+
+
+
 {% endblock %}

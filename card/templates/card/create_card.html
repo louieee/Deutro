@@ -1,5 +1,21 @@
 {% extends 'base.html' %}
 {% load staticfiles %}
 {% block content %}
-    <H1>CREATE CARD</H1>
+    <div id="login-page">
+        <div class="container center-block">
+            <form class="form-login" action="">
+                <h2 class="form-login-heading">Create Result Checker Card</h2>
+                <div class="login-wrap">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="codename" placeholder="Card Code Name">
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-theme btn-block" type="submit">Create Card</button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+
 {% endblock %}

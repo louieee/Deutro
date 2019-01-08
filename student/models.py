@@ -17,6 +17,7 @@ class Student(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE, primary_key=True)
     First_Name = models.CharField(max_length=255)
     Last_Name = models.CharField(max_length=255)
+    Image = models.ImageField(upload_to='images/', default=None)
     Entry_year = models.PositiveIntegerField(validators=[MaxValueValidator(4)])
     Gender = models.IntegerField(choices=genders)
     is_primary = models.BooleanField(default=False)
