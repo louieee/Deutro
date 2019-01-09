@@ -1,5 +1,8 @@
 {% extends 'base.html' %}
 {% load staticfiles %}
+{% block title %}
+    Assignment - {{ assignment.title }}
+{% endblock %}
 {% block content %}
     <div class="col-md-4 col-sm-6 col-xs-12 mt-4">
         <div class="card-group bg-dark">

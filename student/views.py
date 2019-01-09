@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 
 from assignment.models import Assignment
+from .models import Student
 
 
 def assignments(request):
@@ -17,8 +18,13 @@ def check_result(request):
 
 
 def home(request):
-    return render(request, 'home.html')
+    return render(request, 'home.html', {'users': Student.objects.all()})
 
 
 def dashboard(request):
-    return render(request, 'student/dashboard.html')
+    student = Student.objects.all().get(pk=1)
+    return render(request, 'student/dashboard.html', {'student': student})
+
+
+def about(request):
+    return render(request, 'about.html')

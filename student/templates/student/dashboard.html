@@ -1,5 +1,8 @@
 {% extends 'base.html' %}
 {% load staticfiles %}
+{% block title %}
+    Dashboard - {{ student.First_Name }} {{ student.Last_Name }}
+{% endblock %}
 {% block content %}
     <div class="row  container-fluid bg-dark centered">
         <div class="col-lg-2 col-md-2"></div>
@@ -12,16 +15,16 @@
             <div class="row">
                 <div class="col-md-10 centered">
                     <div class="profile-pic">
-                        <p><img src="{% url '{{ student.image.url }}' %}" class="img-circle"></p>
+                        <p><img src="{{ student.Image.url }}" class="img-circle"></p>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-10 profile-text mt mb centered">
-                    <h3>{{ student.school }}</h3>
-                    <h5 class="text-light">{{ student.class }}</h5>
+                    <h3>{{ student.School }}</h3>
+                    <h5 class="text-light">{{ student.stage }}</h5>
                     <h3>USERNAME</h3>
-                    <h5 class="text-light">{{ student.username }}</h5>
+                    <h5 class="text-light">{{ student.user.username }}</h5>
                     <h3>AGE</h3>
                     <h5 class="text-light">{{ student.age }}</h5>
                 </div>

@@ -1,5 +1,8 @@
 {% extends 'base.html' %}
 {% load staticfiles %}
+{% block title %}
+    Schools
+{% endblock %}
 {% block content %}
     <h2 class="text-center text-light"><strong>List of all Schools</strong></h2>
     {% for school in schools %}
