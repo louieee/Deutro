@@ -17,19 +17,22 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'account.apps.AccountConfig',
-    'assignment.apps.AssignmentConfig',
-    'card.apps.CardConfig',
-    'result.apps.ResultConfig',
-    'school.apps.SchoolConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'account.apps.AccountConfig',
+    'assignment.apps.AssignmentConfig',
+    'card.apps.CardConfig',
+    'result.apps.ResultConfig',
+    'school.apps.SchoolConfig',
     'student',
     'teacher',
+    'subject.apps.SubjectConfig'
+
+
 ]
 
 MIDDLEWARE = [

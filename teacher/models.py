@@ -3,6 +3,7 @@ from django.db import models
 
 from school.models import School
 from student.models import genders
+from subject.models import Subject
 
 # Create your models here.
 
@@ -15,5 +16,6 @@ class Teacher(models.Model):
     Image = models.ImageField(upload_to='images/', default=None)
     Last_Name = models.CharField(max_length=255)
     Gender = models.IntegerField(choices=genders)
-    subject = models.IntegerField(choices=subjects)
+    stage = models.IntegerField()
+    subject = models.CharField(max_length=255)
     School = models.ForeignKey(School, on_delete=models.CASCADE)
