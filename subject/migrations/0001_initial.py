@@ -12,10 +12,12 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name='Card',
+            name='Subject',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('code', models.CharField(max_length=20)),
+                ('name', models.CharField(max_length=255)),
+                ('for_primary', models.BooleanField(default=False)),
+                ('for_secondary', models.BooleanField(default=False)),
             ],
         ),
     ]

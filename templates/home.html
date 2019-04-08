@@ -4,6 +4,13 @@
     Home
 {% endblock %}
 {% block content %}
+    <div class="row">
+        {% if message %}
+                <div class="col-12 alert alert-info text-center" role="alert">
+                    <h5 class="pt-3">{{ message }}</h5>
+                </div>
+            {% endif %}
+    </div>
     <div class="text-justify">
         <br/><br/><br/><br/><br/><br/><br/>
         <h1 class=" m-5 text-center text-light text-justify"><b>CONNECTING SCHOOLS AND STUDENTS ALL OVER THE WORLD</b>

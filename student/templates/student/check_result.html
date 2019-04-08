@@ -5,7 +5,14 @@
 {% endblock %}
 {% block content %}
     <div id="login-page">
-        <div class="container center-block">
+    <div class="row">
+            {% if error %}
+                <div class="col-12 alert alert-danger text-center" role="alert">
+                    <h5 class="pt-3">{{ error }}</h5>
+                </div>
+            {% endif %}
+    </div>
+        <div class="row container center-block">
             <form class="form-login" action="">
                 <h2 class="form-login-heading">Result Checker</h2>
                 <div class="login-wrap">

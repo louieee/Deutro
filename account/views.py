@@ -22,7 +22,7 @@ def login(request):
             return redirect('home')
         else:
             error = 'Username or Password is Incorrect'
-            return render(request, 'account/login.html', {'error': error})
+            return render(request, 'account/login.html', {'error': error, 'user':username,'pass':password})
 
     else:
         return render(request, 'account/login.html')
@@ -63,7 +63,7 @@ def signup_teacher(request):
         pass1 = str(request.POST.get('password1', False))
         pass2 = str(request.POST.get('password2', False))
         number = 1000 + int(Teacher.objects.all().count())
-        username = get_username(school, str(number), 'Teacher')
+        username = get_username(school, str(number), 'T', fn, ln)
         if pass1 == pass2:
             try:
                 error = 'User already exists'
@@ -79,7 +79,8 @@ def signup_teacher(request):
                                     Gender=gen, stage=stage, subject=subject)
                 d_teacher.user.is_teacher = True
                 d_teacher.save()
-                return redirect('home')
+                message = 'Your Username is ' + username
+                return render(request, 'home.html', {'message': message})
         else:
             error = 'Passwords must match'
             status = 'danger'
@@ -93,10 +94,13 @@ def signup_teacher(request):
 
 
 def signup_student(request):
+    classes = get_class()
     if request.method == 'POST':
+        class_ = str(request.POST.get('stage', False))
         fn = str(request.POST.get('firstname', False))
         ln = str(request.POST.get('lastname', False))
         age = str(request.POST.get('age', False))
+        stage = int(class_[len(class_) - 1:])
         dob = re.split('-', age)
         gender = str(request.POST.get('gender', False))
         gen = 1
@@ -116,46 +120,46 @@ def signup_student(request):
             sec = True
 
         school = str(request.POST.get('school', False))
-        stage = str(request.POST.get('stage', False))
         pass1 = str(request.POST.get('password1', False))
         pass2 = str(request.POST.get('password2', False))
         sch_id = int(School.objects.get(name=school).id)
-        number = 1000 + int(Student.objects.all().count())
-        username = get_username(school, str(number), 'Student')
+        number = 7000 + int(Student.objects.all().count())
+        username = get_username(school, str(number), 'S',fn, ln)
         if pass1 == pass2:
             try:
                 error = 'User already exists'
                 status = 'danger'
                 user = User.objects.get(username=username)
                 return render(request, 'account/signup_student.html',
-                              {'error': error, 'status': status, 'schools': School.objects.all()})
+                              {'error': error, 'classes': classes,'status': status, 'schools': School.objects.all()})
             except User.DoesNotExist:
                 user = User.objects.create_user(username=username, password=pass1, is_student=True)
                 school = School.objects.all().get(name=school)
                 d_student = Student(School_id=sch_id, user=user, First_Name=fn, Last_Name=ln, Entry_year=int(entry_yr),
-                                    Gender=int(gen), is_primary=prim, is_secondary=sec, stage=int(stage),
+                                    Gender=int(gen), is_primary=prim, is_secondary=sec, stage=stage,
                                     Age=date(int(dob[0]), int(dob[1]), int(dob[2])))
                 d_student.user.is_student = True
                 d_student.School = school
                 d_student.save()
-                return redirect('home')
+                message = 'Your Username is '+ username
+                return render(request, 'home.html', {'message': message})
         else:
             error = 'Passwords must match'
             status = 'danger'
             return render(request, 'account/signup_student.html',
-                          {'error': error, 'status': status, 'schools': School.objects.all()})
+                          {'error': error, 'status': status, 'schools': School.objects.all(), 'classes': classes})
     else:
         pass
-    return render(request, 'account/signup_student.html', {'schools': School.objects.all()})
+    return render(request, 'account/signup_student.html', {'schools': School.objects.all(), 'classes': classes})
 
 
-def get_username(school, num, status):
+def get_username(school, num, status, fn, ln):
     word_list = re.split(' ', school)
-    abb = ' '
+    abb = ''
     for word in word_list:
-        abb += word[:1]
+        abb += word[:1].lower()
 
-    return abb + '/' + status + '/' + num
+    return str(fn.lower()+'.'+ln.lower()+'/'+abb+'/'+num+'/'+status.lower())
 
 
 def get_class():

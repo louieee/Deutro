@@ -7,15 +7,12 @@
     <div id="login-page">
         <div class="container center-block">
             <div class="row">
-                {% if error %}
-                    <div class="alert alert-danger" role="alert">
-                        {{ error }}
-                    </div>
-
-                    </div>
-                {% endif %}
-
-        </div>
+            {% if error %}
+                <div class="col-12 alert alert-danger text-center" role="alert">
+                    <h5 class="pt-3">{{ error }}</h5>
+                </div>
+            {% endif %}
+            </div>
             <div class="row" id="signIn">
                 <div class="col-sm-4 col-md-3 col-xs-12"></div>
                 <div class="col-sm-4 col-md-6 col-xs-12">

@@ -2,35 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01593eba-d2bb-4c5b-bde5-a18b28889969" name="Default Changelist" comment="designed templates for all except teacher and student templates">
-      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap4/extra_js/anchor.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap4/extra_js/clipboard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap4/extra_js/holder.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap4/extra_js/jquery-slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap4/extra_js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap4/extra_js/workbox-sw.prod.v2.1.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/static/bootstrap4/extra_js/workbox-sw.prod.v2.1.2.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subject/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subject/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subject/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subject/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subject/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subject/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subject/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subject/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher/migrations/0002_auto_20190110_0453.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher/migrations/0003_auto_20190110_0453.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deutro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deutro/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deutro/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deutro/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/templates/account/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/account/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/templates/account/signup_student.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/account/signup_student.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/templates/account/signup_teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/account/signup_teacher.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/migrations/0002_remove_card_expiry.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/migrations/0002_result_student.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/migrations/0003_auto_20190108_0150.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/migrations/0002_student_image.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/migrations/0002_teacher_image.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/teacher/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/card/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/card/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/card/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/result/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/migrations/0002_result_student.py" beforeDir="false" afterPath="$PROJECT_DIR$/result/migrations/0002_result_student.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/result/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/result/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/school/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/student/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/templates/student/check_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/student/templates/student/check_result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/student/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teacher/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/teacher/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,7 +41,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Deutro$tests__1_.coverage" NAME="tests (1) Coverage Results" MODIFIED="1551269601156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment" />
     <SUITE FILE_PATH="coverage/Deutro$tests.coverage" NAME="tests Coverage Results" MODIFIED="1547082580866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/account" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -49,161 +70,174 @@
     <session id="1284569798">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="32" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.100" value="1" />
           <entry key="project.open.time.103" value="2" />
-          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.105" value="1" />
+          <entry key="project.open.time.108" value="1" />
+          <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.112" value="1" />
           <entry key="project.open.time.115" value="1" />
+          <entry key="project.open.time.116" value="1" />
           <entry key="project.open.time.119" value="1" />
+          <entry key="project.open.time.137" value="1" />
+          <entry key="project.open.time.138" value="1" />
+          <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.169" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.208" value="1" />
+          <entry key="project.open.time.251" value="2" />
+          <entry key="project.open.time.317" value="1" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.65" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
+          <entry key="project.open.time.95" value="1" />
+          <entry key="project.open.time.96" value="1" />
+          <entry key="project.open.time.98" value="1" />
           <entry key="project.open.time.99" value="2" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="5" />
           <entry key="gitignore" value="2" />
-          <entry key="html" value="145" />
+          <entry key="html" value="159" />
           <entry key="jpg" value="4" />
           <entry key="js" value="5" />
-          <entry key="py" value="137" />
+          <entry key="py" value="187" />
+          <entry key="sql" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="5" />
-          <entry key="HTML" value="145" />
+          <entry key="HTML" value="159" />
           <entry key="Image" value="4" />
           <entry key="JavaScript" value="5" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="137" />
+          <entry key="Python" value="187" />
+          <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="Django Console" value="296" />
           <entry key="css" value="6" />
-          <entry key="html" value="11428" />
-          <entry key="py" value="8698" />
-          <entry key="txt" value="519" />
+          <entry key="html" value="11718" />
+          <entry key="py" value="10938" />
+          <entry key="txt" value="602" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="6" />
-          <entry key="HTML" value="11428" />
-          <entry key="PLAIN_TEXT" value="519" />
-          <entry key="Python" value="8698" />
+          <entry key="HTML" value="11718" />
+          <entry key="PLAIN_TEXT" value="602" />
+          <entry key="Python" value="11234" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="69" column="26" lean-forward="true" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/account/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-                <marker date="1547093429379" expanded="true" signature="6362:6367" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Deutro/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/account/templates/account/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="74" column="14" lean-forward="true" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
-              <folding>
-                <element signature="n#if#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/account/templates/account/signup_student.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="23" column="14" selection-start-line="14" selection-start-column="12" selection-end-line="23" selection-end-column="14" />
-              <folding>
-                <element signature="n#if#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/account/templates/account/signup_teacher.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="84" column="74" lean-forward="true" selection-start-line="84" selection-start-column="74" selection-end-line="84" selection-end-column="74" />
+            <state relative-caret-position="90">
+              <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/result/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="5" lean-forward="true" selection-end-line="16" selection-end-column="66" />
               <folding>
-                <element signature="n#if#0;n#!!top" />
+                <element signature="e#26#48#0" expanded="true" />
+                <marker date="1554721822023" expanded="true" signature="178:179" ph="..." />
+                <marker date="1554721822023" expanded="true" signature="237:242" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Deutro/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+              <folding>
+                <element signature="e#34#71#0" expanded="true" />
+                <marker date="1554722306775" expanded="true" signature="162:164" ph="..." />
+                <marker date="1554722306775" expanded="true" signature="191:192" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Deutro/settings.py">
+        <entry file="file://$PROJECT_DIR$/Deutro/PDF.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+            <state relative-caret-position="150">
+              <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/student/models.py">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="2610">
+              <caret line="87" column="10" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignment/views.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="3" selection-start-column="3" selection-end-column="3" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/teacher/models.py">
+        <entry file="file://$PROJECT_DIR$/card/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+            <state relative-caret-position="76">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/card/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignment/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -241,14 +275,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/account/templates/account/dashboard.html" />
-        <option value="$PROJECT_DIR$/assignment/templates/assignment/give_assignment.html" />
-        <option value="$PROJECT_DIR$/Deutro/templates/deutro/home.html" />
-        <option value="$PROJECT_DIR$/Deutro/templates/deutro/base.html" />
-        <option value="$PROJECT_DIR$/school/templates/school/school_dashboard.html" />
         <option value="$PROJECT_DIR$/account/form.py" />
         <option value="$PROJECT_DIR$/Deutro/templates/home.html" />
-        <option value="$PROJECT_DIR$/card/views.py" />
         <option value="$PROJECT_DIR$/school/views.py" />
         <option value="$PROJECT_DIR$/account/urls.py" />
         <option value="$PROJECT_DIR$/card/urls.py" />
@@ -259,7 +287,6 @@
         <option value="$PROJECT_DIR$/Deutro/static/Dashio/index.html" />
         <option value="$PROJECT_DIR$/Deutro/static/Dashio/font_awesome.html" />
         <option value="$PROJECT_DIR$/assignment/models.py" />
-        <option value="$PROJECT_DIR$/card/models.py" />
         <option value="$PROJECT_DIR$/static/Dashio/css/style.css" />
         <option value="$PROJECT_DIR$/teacher/urls.py" />
         <option value="$PROJECT_DIR$/card/templates/card/create_card.html" />
@@ -268,7 +295,6 @@
         <option value="$PROJECT_DIR$/school/templates/school/school_list.html" />
         <option value="$PROJECT_DIR$/student/templates/student/assignment_detail.html" />
         <option value="$PROJECT_DIR$/student/templates/student/assignments.html" />
-        <option value="$PROJECT_DIR$/student/templates/student/check_result.html" />
         <option value="$PROJECT_DIR$/student/templates/student/dashboard.html" />
         <option value="$PROJECT_DIR$/teacher/templates/teacher/dashboard.html" />
         <option value="$PROJECT_DIR$/teacher/templates/teacher/give_assignment.html" />
@@ -276,22 +302,30 @@
         <option value="$PROJECT_DIR$/teacher/templates/teacher/view_assignments.html" />
         <option value="$PROJECT_DIR$/templates/about.html" />
         <option value="$PROJECT_DIR$/account/templates/account/signup.html" />
-        <option value="$PROJECT_DIR$/result/models.py" />
         <option value="$PROJECT_DIR$/school/models.py" />
-        <option value="$PROJECT_DIR$/student/views.py" />
-        <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/subject/models.py" />
         <option value="$PROJECT_DIR$/subject/admin.py" />
         <option value="$PROJECT_DIR$/account/tests.py" />
         <option value="$PROJECT_DIR$/Deutro/settings.py" />
-        <option value="$PROJECT_DIR$/account/templates/account/signup_teacher.html" />
         <option value="$PROJECT_DIR$/student/models.py" />
-        <option value="$PROJECT_DIR$/account/templates/account/signup_student.html" />
         <option value="$PROJECT_DIR$/teacher/models.py" />
-        <option value="$PROJECT_DIR$/account/templates/account/login.html" />
-        <option value="$PROJECT_DIR$/account/views.py" />
         <option value="$PROJECT_DIR$/Deutro/urls.py" />
+        <option value="$PROJECT_DIR$/account/templates/account/signup_teacher.html" />
+        <option value="$PROJECT_DIR$/account/templates/account/signup_student.html" />
+        <option value="$PROJECT_DIR$/account/templates/account/login.html" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
+        <option value="$PROJECT_DIR$/account/views.py" />
+        <option value="$PROJECT_DIR$/result/models.py" />
+        <option value="$PROJECT_DIR$/assignment/tests.py" />
+        <option value="$PROJECT_DIR$/student/templates/student/check_result.html" />
+        <option value="$PROJECT_DIR$/student/views.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/card/views.py" />
+        <option value="$PROJECT_DIR$/card/models.py" />
+        <option value="$PROJECT_DIR$/result/views.py" />
+        <option value="$PROJECT_DIR$/Deutro/PDF.py" />
+        <option value="$PROJECT_DIR$/Deutro/views.py" />
+        <option value="$PROJECT_DIR$/templates/result_template.html" />
       </list>
     </option>
   </component>
@@ -313,7 +347,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -324,170 +357,7 @@
             <path>
               <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
               <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-              <item name="card" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-              <item name="card" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-              <item name="card" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-              <item name="card" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="card" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
               <item name="result" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-              <item name="result" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-              <item name="school" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-              <item name="school" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-              <item name="school" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-              <item name="school" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="school" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-              <item name="student" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-              <item name="student" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-              <item name="student" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-              <item name="student" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="student" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-              <item name="subject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-              <item name="subject" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-              <item name="teacher" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-              <item name="teacher" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-              <item name="teacher" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-              <item name="teacher" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="teacher" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
@@ -498,15 +368,18 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Deutro - Copy" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -533,7 +406,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tests">
+  <component name="RunManager" selected="Django server.Deutro">
+    <configuration name="tests (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Deutro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignment" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignment/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Deutro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -562,6 +457,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Deutro.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -582,9 +478,11 @@
     <list>
       <item itemvalue="Django server.Deutro" />
       <item itemvalue="Python.tests" />
+      <item itemvalue="Python.tests (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tests (1)" />
         <item itemvalue="Python.tests" />
       </list>
     </recent_temporary>
@@ -670,7 +568,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547034457889</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Finished designing views for account; can sign up, log in and log out">
+      <created>1547094018748</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1547094018749</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -686,7 +591,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19742814" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2579425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -698,16 +603,39 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32879046" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32879046" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3295082" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4173765" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4173765" />
+      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.32879046" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25416037" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32879046" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32879046" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4173765" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32879046" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -751,221 +679,12 @@
     <MESSAGE value="Designed all templates and updated Result, card, student and teacher models" />
     <MESSAGE value="designed templates for give_assignment and checked bg-image" />
     <MESSAGE value="Finished view for student signup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished view for student signup" />
+    <MESSAGE value="Finished designing views for account; can sign up, log in and log out" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished designing views for account; can sign up, log in and log out" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Deutro/static/Dashio/css/to-do.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Dashio/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="223" column="29" selection-start-line="223" selection-start-column="29" selection-end-line="223" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deutro/static/Dashio/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="1445" column="8" selection-start-line="1445" selection-start-column="8" selection-end-line="1445" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deutro/static/image/sch_bg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/my_images/school_bg.jpg" />
-    <entry file="file://$PROJECT_DIR$/assignment/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deutro/static/bootstrap4/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/bootstrap/js/bootstrap.js" />
-    <entry file="file://$PROJECT_DIR$/Deutro/static/bootstrap4/extra_js/anchor.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teacher/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teacher/views.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/card/templates/card/create_card.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/school/templates/school/add_school.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/school/templates/school/school_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/school/templates/school/school_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student/templates/student/assignment_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student/templates/student/assignments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student/templates/student/check_result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student/templates/student/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teacher/templates/teacher/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teacher/templates/teacher/give_assignment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teacher/templates/teacher/upload_result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teacher/templates/teacher/view_assignments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/card/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/school/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/templates/account/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/subject/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/subject/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7" />
@@ -973,20 +692,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/teacher/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-7" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/subject/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -997,9 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/account/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://C:/Program Files/Python37/Lib/site-packages/django/db/backends/base/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1007,98 +716,292 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/subject/models.py">
+    <entry file="file://$PROJECT_DIR$/account/templates/account/signup_student.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-          <folding>
-            <marker date="1547067402889" expanded="true" signature="86:239" ph="..." />
-          </folding>
+        <state relative-caret-position="304">
+          <caret line="19" column="23" selection-start-line="15" selection-start-column="12" selection-end-line="19" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/student/models.py">
+    <entry file="file://$PROJECT_DIR$/result/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teacher/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5f3fd66a-ed37-4caa-a73e-dad9dc9318c1/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student/templates/student/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/teacher/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
+        <state relative-caret-position="224">
           <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/account/templates/account/signup_student.html">
+    <entry file="file://$PROJECT_DIR$/school/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/card/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deutro/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="23" column="14" selection-start-line="14" selection-start-column="12" selection-end-line="23" selection-end-column="14" />
-          <folding>
-            <element signature="n#if#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="96">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/account/templates/account/signup_teacher.html">
+    <entry file="file://$PROJECT_DIR$/student/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="84" column="74" lean-forward="true" selection-start-line="84" selection-start-column="74" selection-end-line="84" selection-end-column="74" />
-          <folding>
-            <element signature="n#if#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="64">
+          <caret line="6" selection-end-line="6" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/account/templates/account/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="74" column="14" lean-forward="true" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
-          <folding>
-            <element signature="n#if#0;n#!!top" />
-          </folding>
+        <state>
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment/views.py">
+    <entry file="file://$PROJECT_DIR$/student/templates/student/assignments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/school/templates/school/school_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/templates/account/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student/decorators.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/account/views.py">
+    <entry file="file://$PROJECT_DIR$/student/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subject/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1547093429379" expanded="true" signature="6362:6367" ph="..." />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Deutro/urls.py">
+    <entry file="file://$PROJECT_DIR$/student/templates/student/check_result.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+        <state relative-caret-position="128">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Deutro/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+        <state relative-caret-position="3630">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/school/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/school/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subject/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teacher/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teacher/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1547438610795" expanded="true" signature="6756:6761" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="69" column="26" lean-forward="true" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+        <state relative-caret-position="2610">
+          <caret line="87" column="10" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/templates/account/signup_teacher.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/card/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/card/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" lean-forward="true" selection-end-line="16" selection-end-column="66" />
+          <folding>
+            <element signature="e#26#48#0" expanded="true" />
+            <marker date="1554721822023" expanded="true" signature="178:179" ph="..." />
+            <marker date="1554721822023" expanded="true" signature="237:242" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deutro/PDF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/result_template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deutro/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="e#34#71#0" expanded="true" />
+            <marker date="1554722306775" expanded="true" signature="162:164" ph="..." />
+            <marker date="1554722306775" expanded="true" signature="191:192" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
