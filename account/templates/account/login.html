@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% load staticfiles %}
+{% load static %} {% load custom_tags %}
 {% block title %}
     Log In
 {% endblock %}
@@ -17,7 +17,7 @@
     </div>
         <div class="container center-block">
 
-            <form class="form-login" action="{% url 'login' %}" method="post">
+            <form class="form-login" action="{% the_url request  'login' %}" method="post">
                 {% csrf_token %}
                 <h2 class="form-login-heading">Log In</h2>
                 <div class="login-wrap">
@@ -42,7 +42,7 @@
                     </div>
                     <div class="registration">
                         Don't have an account yet?<br/>
-                        <a class="" href="{% url 'signup' %}">
+                        <a class="" href="{% the_url request  'signup' %}">
                             Create an account
                         </a>
                     </div>

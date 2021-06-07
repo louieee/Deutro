@@ -4,6 +4,7 @@ from datetime import date
 from django.contrib import auth
 from django.shortcuts import render, redirect
 
+from Utilities.custom_views import DefaultView
 from school.models import School
 from student.models import Student
 from student.models import User
@@ -12,8 +13,10 @@ from teacher.models import Teacher
 
 
 # Create your views here.
-def login(request):
-    if request.method == 'POST':
+class LoginView(DefaultView):
+    template = 'account/login.html'
+
+    def post(self, request):
         username = str(request.POST.get('username', False))
         password = str(request.POST.get('password', False))
         user = auth.authenticate(username=username, password=password)
@@ -22,10 +25,7 @@ def login(request):
             return redirect('home')
         else:
             error = 'Username or Password is Incorrect'
-            return render(request, 'account/login.html', {'error': error, 'user':username,'pass':password})
-
-    else:
-        return render(request, 'account/login.html')
+            return render(request, 'account/login.html', {'error': error, 'user': username, 'pass': password})
 
 
 def signup(request):
@@ -124,14 +124,14 @@ def signup_student(request):
         pass2 = str(request.POST.get('password2', False))
         sch_id = int(School.objects.get(name=school).id)
         number = 7000 + int(Student.objects.all().count())
-        username = get_username(school, str(number), 'S',fn, ln)
+        username = get_username(school, str(number), 'S', fn, ln)
         if pass1 == pass2:
             try:
                 error = 'User already exists'
                 status = 'danger'
                 user = User.objects.get(username=username)
                 return render(request, 'account/signup_student.html',
-                              {'error': error, 'classes': classes,'status': status, 'schools': School.objects.all()})
+                              {'error': error, 'classes': classes, 'status': status, 'schools': School.objects.all()})
             except User.DoesNotExist:
                 user = User.objects.create_user(username=username, password=pass1, is_student=True)
                 school = School.objects.all().get(name=school)
@@ -141,7 +141,7 @@ def signup_student(request):
                 d_student.user.is_student = True
                 d_student.School = school
                 d_student.save()
-                message = 'Your Username is '+ username
+                message = 'Your Username is ' + username
                 return render(request, 'home.html', {'message': message})
         else:
             error = 'Passwords must match'
@@ -159,7 +159,7 @@ def get_username(school, num, status, fn, ln):
     for word in word_list:
         abb += word[:1].lower()
 
-    return str(fn.lower()+'.'+ln.lower()+'/'+abb+'/'+num+'/'+status.lower())
+    return str(fn.lower() + '.' + ln.lower() + '/' + abb + '/' + num + '/' + status.lower())
 
 
 def get_class():

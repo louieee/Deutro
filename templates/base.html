@@ -1,14 +1,14 @@
+{% load static %} {% load custom_tags %}
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    {% load staticfiles %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="Dashboard">
     <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
-    <title>Deutro - {% block title %}{% endblock %}</title>
+    <title>Skolar.inc - {% block title %}{% endblock %}</title>
 
     <link href="{% static 'Dashio/img/favicon.png' %}" rel="icon">
     <link href="{% static 'Dashio/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
@@ -33,7 +33,7 @@
 <body>
 <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark m-1 rounded">
-        <a href="{% url 'home' %}" class="logo mt-0"><b>DEU<span>TRO</span></b></a>
+        <a href="{% the_url request  'home' %}" class="logo mt-0"><b class="text-warning">Sko<span>lar</span></b></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -44,39 +44,39 @@
                 {% if user.is_authenticated %}
                     {% if user.is_student %}
                         <li class="nav-item">
-                            <a class="nav-link" href="{% url 'all_assignments' %}">Assignments</a>
+                            <a class="nav-link" href="{% the_url request  'all_assignments' %}">Assignments</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{% url 'result_checker' %}">Check Result</a>
+                            <a class="nav-link" href="{% the_url request  'result_checker' %}">Check Result</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{% url 'student_dashboard' %}">DashBoard</a>
+                            <a class="nav-link" href="{% the_url request  'student_dashboard' %}">DashBoard</a>
                         </li>
                     {% endif %}
                     {% if user.is_teacher %}
                         <li class="nav-item">
-                            <a class="nav-link" href="{% url 'assignments' %}">Assignments</a>
+                            <a class="nav-link" href="{% the_url request  'assignments' %}">Assignments</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{% url 'upload_result' %}">Upload Result</a>
+                            <a class="nav-link" href="{% the_url request  'upload_result' %}">Upload Result</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{% url 'teacher_dashboard' %}">DashBoard</a>
+                            <a class="nav-link" href="{% the_url request  'teacher_dashboard' %}">DashBoard</a>
                         </li>
                     {% endif %}
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'logout' %}">Log Out</a>
+                        <a class="nav-link" href="{% the_url request  'logout' %}">Log Out</a>
                     </li>
                 {% else %}
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'login' %}">Log In</a>
+                        <a class="nav-link" href="{% the_url request  'login' %}">Log In</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'signup' %}">Sign Up</a>
+                        <a class="nav-link" href="{% the_url request  'signup' %}">Sign Up</a>
                     </li>
                 {% endif %}
                 <li class="nav-item">
-                    <a class="nav-link" href="{% url 'about' %}">About Us</a>
+                    <a class="nav-link" href="{% the_url request  'about' %}">About Us</a>
                 </li>
         </ul>
         </div>

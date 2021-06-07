@@ -1,40 +1,190 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="01593eba-d2bb-4c5b-bde5-a18b28889969" name="Default Changelist" comment="designed templates for all except teacher and student templates">
-      <change afterPath="$PROJECT_DIR$/Deutro/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/subject/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/subject/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/subject/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/subject/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/subject/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/subject/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/subject/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/subject/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teacher/migrations/0002_auto_20190110_0453.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teacher/migrations/0003_auto_20190110_0453.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ee0f29d6-5c9f-4385-a065-40ee56b3298a.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/api_urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/frontend_urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/hosts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/middleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/routing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deutro/templatetags/custom_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utilities/custom_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/apis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/apis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/migrations/0002_alter_assignment_id.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card/apis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card/migrations/0003_auto_20210607_0953.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card/serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/management/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/management/commands/create_domains.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/middleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/apis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/migrations/0004_alter_result_id.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school/apis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school/migrations/0002_alter_school_id.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school/serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student/apis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student/migrations/0002_auto_20210607_0953.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student/serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subject/apis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subject/migrations/0002_alter_subject_id.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subject/serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher/apis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Deutro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Deutro.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deutro/PDF.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/python_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deutro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deutro/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deutro/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deutro/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deutro/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deutro/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/apps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/templates/account/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/account/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/templates/account/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/account/signup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/templates/account/signup_student.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/account/signup_student.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/templates/account/signup_teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/account/signup_teacher.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/card/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/card/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/card/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/result/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/migrations/0002_result_student.py" beforeDir="false" afterPath="$PROJECT_DIR$/result/migrations/0002_result_student.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/result/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/card/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card/templates/card/create_card.html" beforeDir="false" afterPath="$PROJECT_DIR$/card/templates/card/create_card.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Lib/tcl8.6/init.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/Activate.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_asyncio.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_asyncio_d.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_bz2.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_bz2_d.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_contextvars.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_contextvars_d.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_ctypes.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_ctypes_d.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_ctypes_test.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_ctypes_test_d.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_decimal.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_decimal_d.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_distutils_findvs.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_distutils_findvs_d.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_elementtree.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_elementtree_d.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_hashlib.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_hashlib_d.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_lzma.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_lzma_d.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_msi.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_msi_d.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_multiprocessing.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_multiprocessing_d.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_overlapped.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_overlapped_d.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_queue.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_queue_d.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_socket.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_socket_d.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_sqlite3.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_sqlite3_d.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_ssl.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_ssl_d.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_testbuffer.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_testbuffer_d.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_testcapi.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_testcapi_d.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_testconsole.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_testconsole_d.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_testimportmultiple.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_testimportmultiple_d.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_testmultiphase.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_testmultiphase_d.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_tkinter.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_tkinter_d.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/activate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/activate.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/deactivate.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/libcrypto-1_1-x64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/libssl-1_1-x64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/pyexpat.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/pyexpat_d.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/python.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/python3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/python37.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/python37_d.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/python3_d.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/python_d.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/pythonw.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/pythonw_d.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/select.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/select_d.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/sqlite3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/sqlite3_d.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/tcl86t.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/tk86t.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/unicodedata.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/unicodedata_d.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/vcruntime140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/winsound.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/winsound_d.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_venv/pyvenv.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/result/apps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/result/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/school/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/student/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/school/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/school/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/templates/school/add_school.html" beforeDir="false" afterPath="$PROJECT_DIR$/school/templates/school/add_school.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/templates/school/school_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/school/templates/school/school_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/templates/school/school_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/school/templates/school/school_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/student/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/templates/student/assignment_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/student/templates/student/assignment_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/templates/student/assignments.html" beforeDir="false" afterPath="$PROJECT_DIR$/student/templates/student/assignments.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/student/templates/student/check_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/student/templates/student/check_result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/templates/student/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/student/templates/student/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/student/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/student/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/student/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/teacher/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subject/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/subject/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teacher/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/teacher/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teacher/templates/teacher/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/teacher/templates/teacher/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teacher/templates/teacher/give_assignment.html" beforeDir="false" afterPath="$PROJECT_DIR$/teacher/templates/teacher/give_assignment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teacher/templates/teacher/upload_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/teacher/templates/teacher/upload_result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teacher/templates/teacher/view_assignments.html" beforeDir="false" afterPath="$PROJECT_DIR$/teacher/templates/teacher/view_assignments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,224 +194,16 @@
     <SUITE FILE_PATH="coverage/Deutro$tests__1_.coverage" NAME="tests (1) Coverage Results" MODIFIED="1551269601156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment" />
     <SUITE FILE_PATH="coverage/Deutro$tests.coverage" NAME="tests Coverage Results" MODIFIED="1547082580866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/account" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db" type="feb32156:DbDataSourceImpl" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1284569798">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="32" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.100" value="1" />
-          <entry key="project.open.time.103" value="2" />
-          <entry key="project.open.time.105" value="1" />
-          <entry key="project.open.time.108" value="1" />
-          <entry key="project.open.time.11" value="3" />
-          <entry key="project.open.time.112" value="1" />
-          <entry key="project.open.time.115" value="1" />
-          <entry key="project.open.time.116" value="1" />
-          <entry key="project.open.time.119" value="1" />
-          <entry key="project.open.time.137" value="1" />
-          <entry key="project.open.time.138" value="1" />
-          <entry key="project.open.time.16" value="2" />
-          <entry key="project.open.time.169" value="1" />
-          <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.208" value="1" />
-          <entry key="project.open.time.251" value="2" />
-          <entry key="project.open.time.317" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.65" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.open.time.95" value="1" />
-          <entry key="project.open.time.96" value="1" />
-          <entry key="project.open.time.98" value="1" />
-          <entry key="project.open.time.99" value="2" />
-          <entry key="project.opened" value="34" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="css" value="5" />
-          <entry key="gitignore" value="2" />
-          <entry key="html" value="159" />
-          <entry key="jpg" value="4" />
-          <entry key="js" value="5" />
-          <entry key="py" value="187" />
-          <entry key="sql" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CSS" value="5" />
-          <entry key="HTML" value="159" />
-          <entry key="Image" value="4" />
-          <entry key="JavaScript" value="5" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="187" />
-          <entry key="Scratch" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="Django Console" value="296" />
-          <entry key="css" value="6" />
-          <entry key="html" value="11718" />
-          <entry key="py" value="10938" />
-          <entry key="txt" value="602" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSS" value="6" />
-          <entry key="HTML" value="11718" />
-          <entry key="PLAIN_TEXT" value="602" />
-          <entry key="Python" value="11234" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/account/templates/account/signup_teacher.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/result/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="5" lean-forward="true" selection-end-line="16" selection-end-column="66" />
-              <folding>
-                <element signature="e#26#48#0" expanded="true" />
-                <marker date="1554721822023" expanded="true" signature="178:179" ph="..." />
-                <marker date="1554721822023" expanded="true" signature="237:242" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Deutro/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-              <folding>
-                <element signature="e#34#71#0" expanded="true" />
-                <marker date="1554722306775" expanded="true" signature="162:164" ph="..." />
-                <marker date="1554722306775" expanded="true" signature="191:192" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Deutro/PDF.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2610">
-              <caret line="87" column="10" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignment/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="3" selection-start-column="3" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/card/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/card/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignment/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>info</find>
-      <find>.span</find>
-      <find>primary</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>fd9312</replace>
-      <replace>light</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -272,141 +214,40 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/account/form.py" />
-        <option value="$PROJECT_DIR$/Deutro/templates/home.html" />
-        <option value="$PROJECT_DIR$/school/views.py" />
-        <option value="$PROJECT_DIR$/account/urls.py" />
-        <option value="$PROJECT_DIR$/card/urls.py" />
-        <option value="$PROJECT_DIR$/school/urls.py" />
-        <option value="$PROJECT_DIR$/student/urls.py" />
-        <option value="$PROJECT_DIR$/teacher/views.py" />
-        <option value="$PROJECT_DIR$/Deutro/templates/base.html" />
-        <option value="$PROJECT_DIR$/Deutro/static/Dashio/index.html" />
-        <option value="$PROJECT_DIR$/Deutro/static/Dashio/font_awesome.html" />
-        <option value="$PROJECT_DIR$/assignment/models.py" />
-        <option value="$PROJECT_DIR$/static/Dashio/css/style.css" />
-        <option value="$PROJECT_DIR$/teacher/urls.py" />
-        <option value="$PROJECT_DIR$/card/templates/card/create_card.html" />
-        <option value="$PROJECT_DIR$/school/templates/school/add_school.html" />
-        <option value="$PROJECT_DIR$/school/templates/school/school_detail.html" />
-        <option value="$PROJECT_DIR$/school/templates/school/school_list.html" />
-        <option value="$PROJECT_DIR$/student/templates/student/assignment_detail.html" />
-        <option value="$PROJECT_DIR$/student/templates/student/assignments.html" />
-        <option value="$PROJECT_DIR$/student/templates/student/dashboard.html" />
-        <option value="$PROJECT_DIR$/teacher/templates/teacher/dashboard.html" />
-        <option value="$PROJECT_DIR$/teacher/templates/teacher/give_assignment.html" />
-        <option value="$PROJECT_DIR$/teacher/templates/teacher/upload_result.html" />
-        <option value="$PROJECT_DIR$/teacher/templates/teacher/view_assignments.html" />
-        <option value="$PROJECT_DIR$/templates/about.html" />
-        <option value="$PROJECT_DIR$/account/templates/account/signup.html" />
-        <option value="$PROJECT_DIR$/school/models.py" />
-        <option value="$PROJECT_DIR$/subject/models.py" />
-        <option value="$PROJECT_DIR$/subject/admin.py" />
-        <option value="$PROJECT_DIR$/account/tests.py" />
-        <option value="$PROJECT_DIR$/Deutro/settings.py" />
-        <option value="$PROJECT_DIR$/student/models.py" />
-        <option value="$PROJECT_DIR$/teacher/models.py" />
-        <option value="$PROJECT_DIR$/Deutro/urls.py" />
-        <option value="$PROJECT_DIR$/account/templates/account/signup_teacher.html" />
-        <option value="$PROJECT_DIR$/account/templates/account/signup_student.html" />
-        <option value="$PROJECT_DIR$/account/templates/account/login.html" />
-        <option value="$PROJECT_DIR$/templates/home.html" />
-        <option value="$PROJECT_DIR$/account/views.py" />
-        <option value="$PROJECT_DIR$/result/models.py" />
-        <option value="$PROJECT_DIR$/assignment/tests.py" />
-        <option value="$PROJECT_DIR$/student/templates/student/check_result.html" />
-        <option value="$PROJECT_DIR$/student/views.py" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/card/views.py" />
-        <option value="$PROJECT_DIR$/card/models.py" />
-        <option value="$PROJECT_DIR$/result/views.py" />
-        <option value="$PROJECT_DIR$/Deutro/PDF.py" />
-        <option value="$PROJECT_DIR$/Deutro/views.py" />
-        <option value="$PROJECT_DIR$/templates/result_template.html" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-16" />
-    <option name="y" value="6" />
-    <option name="width" value="703" />
-    <option name="height" value="692" />
-  </component>
+  <component name="ProjectId" id="1tc4KGlPGwdZAz6E4rgpmdUMEyt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-              <item name="result" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deutro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deutro" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Deutro - Copy" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/teacher" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\USER\PycharmProjects\Deutro\Deutro\static\bootstrap\extra_js" />
-      <recent name="C:\Users\USER\PycharmProjects\Deutro\Deutro\static\bootstrap" />
-      <recent name="C:\Users\USER\PycharmProjects\Deutro\static\bootstrap" />
-      <recent name="C:\Users\USER\PycharmProjects\Deutro\Deutro\static" />
-      <recent name="C:\Users\USER\PycharmProjects\Deutro\Deutro\static\Dashio" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\melet\PycharmProjects\Deutro\Deutro\templatetags" />
+      <recent name="C:\Users\melet\PycharmProjects\Deutro\Deutro" />
       <recent name="C:\Users\USER\PycharmProjects\Deutro\templates" />
       <recent name="C:\Users\USER\PycharmProjects\Deutro\teacher" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\melet\PycharmProjects\Deutro\teacher" />
+      <recent name="C:\Users\melet\PycharmProjects\Deutro\subject" />
+      <recent name="C:\Users\melet\PycharmProjects\Deutro\student" />
+      <recent name="C:\Users\melet\PycharmProjects\Deutro\school" />
+      <recent name="C:\Users\melet\PycharmProjects\Deutro\result" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Django server.Deutro">
+  <component name="RunManager" selected="Django Server.Deutro">
     <configuration name="tests (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Deutro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -476,7 +317,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Django server.Deutro" />
+      <item itemvalue="Django Server.Deutro" />
       <item itemvalue="Python.tests" />
       <item itemvalue="Python.tests (1)" />
     </list>
@@ -497,6 +338,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546638524558</updated>
+      <workItem from="1623054986284" duration="19019000" />
+      <workItem from="1623074557818" duration="3558000" />
     </task>
     <task id="LOCAL-00001" summary="Created Models and added to admin">
       <created>1546659391397</created>
@@ -587,87 +430,20 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2579425" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32879046" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32879046" />
-      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32879046" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3295082" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4173765" />
-      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.32879046" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25416037" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32879046" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32879046" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3295082" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4173765" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32879046" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created Models and added to admin" />
@@ -684,326 +460,22 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/subject/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teacher/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/subject/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python37/Lib/site-packages/django/db/backends/base/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="238" selection-start-line="238" selection-end-line="238" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/templates/account/signup_student.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="23" selection-start-line="15" selection-start-column="12" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teacher/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5f3fd66a-ed37-4caa-a73e-dad9dc9318c1/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student/templates/student/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teacher/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/school/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/card/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deutro/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/templates/account/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student/templates/student/assignments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/school/templates/school/school_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/templates/account/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student/decorators.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/subject/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student/templates/student/check_result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deutro/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3630">
-          <caret line="121" selection-start-line="121" selection-end-line="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/school/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/school/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/subject/views.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student/views.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teacher/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teacher/views.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1547438610795" expanded="true" signature="6756:6761" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2610">
-          <caret line="87" column="10" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/templates/account/signup_teacher.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/card/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/card/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" lean-forward="true" selection-end-line="16" selection-end-column="66" />
-          <folding>
-            <element signature="e#26#48#0" expanded="true" />
-            <marker date="1554721822023" expanded="true" signature="178:179" ph="..." />
-            <marker date="1554721822023" expanded="true" signature="237:242" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deutro/PDF.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/result_template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deutro/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <element signature="e#34#71#0" expanded="true" />
-            <marker date="1554722306775" expanded="true" signature="162:164" ph="..." />
-            <marker date="1554722306775" expanded="true" signature="191:192" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623060602883">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1623060602883" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1623057583663">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1623057583663" />
+    <state x="347" y="49" width="587" height="582" key="find.popup" timestamp="1623070842615">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="347" y="49" width="587" height="582" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1623070842615" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1623059318219">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1623059318219" />
   </component>
 </project>

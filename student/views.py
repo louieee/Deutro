@@ -1,4 +1,6 @@
 from django.shortcuts import render, get_object_or_404
+
+from Utilities.custom_views import DefaultView
 from student.models import User
 from assignment.models import Assignment
 from .models import Student
@@ -57,14 +59,14 @@ def check_result(request):
     return render(request, 'student/check_result.html')
 
 
-def home(request):
-    return render(request, 'home.html', {'users': Student.objects.all()})
+class HomeView(DefaultView):
+    context = {}
+    template = 'home.html'
 
 
-def dashboard(request):
-    student = ""
-    return render(request, 'student/dashboard.html', {'student': student})
+class DashboardView(DefaultView):
+    template = 'student/dashboard.html'
 
 
-def about(request):
-    return render(request, 'about.html')
+class AboutView(DefaultView):
+    template = 'about.html'

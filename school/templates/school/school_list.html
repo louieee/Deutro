@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% load staticfiles %}
+{% load static %} {% load custom_tags %}
 {% block title %}
     Schools
 {% endblock %}
@@ -16,7 +16,7 @@
                     </div>
                 </div>
                 <div class="row centered">
-                    <img src="{% url '{{ school.image.url }}' %}" class="img-rounded" width="200">
+                    <img src="{% the_url request  '{{ school.image.url }}' %}" class="img-rounded" width="200">
                 </div>
             </div>
         </div>

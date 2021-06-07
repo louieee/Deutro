@@ -1,14 +1,13 @@
 # Create your views here.
 from django.views.generic import View
-from .models import *
 from django.utils import timezone
-from .PDF import Render
+from Utilities.python_utils import Render
 
 
 class Pdf(View):
 
     def get(self, request):
-        sales = Sales.objects.all()
+        sales = {}
         today = timezone.now()
         params = {
             'today': today,

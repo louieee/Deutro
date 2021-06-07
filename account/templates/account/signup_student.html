@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% load staticfiles %}
+{% load static %} {% load custom_tags %}
 {% block error %}
     {{ error }}
 {% endblock %}
@@ -23,7 +23,7 @@
                 <div class="col-sm-4 col-md-3 col-xs-12"></div>
                 <div class="col-sm-4 col-md-6 col-xs-12">
                     <br/>
-                    <form class="bg-important" action="{% url 'student_signup' %}" method="post">
+                    <form class="bg-important" action="{% the_url request  'student_signup' %}" method="post">
                         {% csrf_token %}
                         <div class="login-wrap">
                             <br/>
@@ -101,7 +101,7 @@
                                 <input type="submit" class="btn btn-success btn-block" value="Sign Up">
                             </div>
                             <span class="text-center">Already own an account?</span>
-                            <a href="{% url 'login' %}">Log In </a>
+                            <a href="{% the_url request  'login' %}">Log In </a>
                         </div>
                         <!-- modal -->
                     </form>

@@ -1,6 +1,8 @@
 import os
+from decouple import config, Csv
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Quick-start development settings - unsuitable for production
@@ -12,7 +14,7 @@ SECRET_KEY = '4knifxvhepa6%&8#m=tgx%lq9h(ns*s=snamu_i51vu1mc7#h9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -23,19 +25,25 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'account.apps.AccountConfig',
-    'assignment.apps.AssignmentConfig',
-    'card.apps.CardConfig',
-    'result.apps.ResultConfig',
-    'school.apps.SchoolConfig',
+    'account',
+    'Deutro',
+    'assignment',
+    'card',
+    'result',
+    'school',
     'student',
     'teacher',
-    'subject.apps.SubjectConfig'
+    'subject',
+    'domain',
+    'django_hosts',
+    'rest_framework',
+    'channels'
 
 
 ]
 
 MIDDLEWARE = [
+    'django_hosts.middleware.HostsRequestMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -43,10 +51,14 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'domain.middleware.CurrentDomainMiddleware',
+    'Deutro.middleware.MultitenantMiddleware',
+    'django_hosts.middleware.HostsResponseMiddleware',
 ]
 
 ROOT_URLCONF = 'Deutro.urls'
-
+ROOT_HOSTCONF = 'Deutro.hosts'
+DEFAULT_HOST = 'www'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -60,11 +72,12 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
+            'builtins': ['django_hosts.templatetags.hosts_override',]
         },
     },
 ]
 
-WSGI_APPLICATION = 'Deutro.wsgi.application'
+ASGI_APPLICATION = "Deutro.routing.application"
 
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
@@ -73,7 +86,11 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    },
+    'default_1': {
+        'ENGINE': 'django_multitenant.backends.postgresql',
     }
+
 }
 
 # Password validation

@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% load staticfiles %}
+{% load static %} {% load custom_tags %}
 {% block title %}
     Dashboard - {{ teacher.First_Name }}_{{ teacher.Last_Name }}
 {% endblock %}
@@ -17,7 +17,7 @@
             <div class="row">
                 <div class="col-md-10 centered">
                     <div class="profile-pic">
-                        <p><img src="{% url '{{ teacher.image.url }}' %}" class="img-circle"></p>
+                        <p><img src="{% the_url request  '{{ teacher.image.url }}' %}" class="img-circle"></p>
                     </div>
                 </div>
             </div>
