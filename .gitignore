@@ -4,7 +4,7 @@
 *.pyc
 _pycache_/
 local_settings.py
-db.sqlite3
+*.sqlite3
 media
 my_venv
 .env
@@ -13,3 +13,5 @@ celerybeat-schedule.dat
 celerybeat-schedule.dir
 .idea
 .vscode
+*/migrations/[0-9]_*.py
+*/migrations/[a-z]*.py

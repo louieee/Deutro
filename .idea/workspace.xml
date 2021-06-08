@@ -16,20 +16,19 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:development" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01593eba-d2bb-4c5b-bde5-a18b28889969" name="Default Changelist" comment="designed templates for all except teacher and student templates">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deutro/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deutro/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deutro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deutro/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/school/models.py" afterDir="false" />
     </list>
+    <list id="8dac1c58-037c-4f04-8cc3-e923997efdd2" name="edit .gitignore" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,8 +44,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -55,6 +54,11 @@
       <list>
         <option value="Louis &lt;louis.paul9095@gmail.com&gt;" />
       </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="clean_sheets" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
@@ -69,27 +73,29 @@
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/teacher" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\melet\PycharmProjects\Deutro\Deutro\templatetags" />
-      <recent name="C:\Users\melet\PycharmProjects\Deutro\Deutro" />
-      <recent name="C:\Users\USER\PycharmProjects\Deutro\templates" />
-      <recent name="C:\Users\USER\PycharmProjects\Deutro\teacher" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\melet\PycharmProjects\Deutro\templates" />
       <recent name="C:\Users\melet\PycharmProjects\Deutro\teacher" />
       <recent name="C:\Users\melet\PycharmProjects\Deutro\subject" />
       <recent name="C:\Users\melet\PycharmProjects\Deutro\student" />
       <recent name="C:\Users\melet\PycharmProjects\Deutro\school" />
-      <recent name="C:\Users\melet\PycharmProjects\Deutro\result" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\melet\PycharmProjects\Deutro\customer" />
+      <recent name="C:\Users\melet\PycharmProjects\Deutro\Deutro\templatetags" />
+      <recent name="C:\Users\melet\PycharmProjects\Deutro\Deutro" />
+      <recent name="C:\Users\USER\PycharmProjects\Deutro\templates" />
+      <recent name="C:\Users\USER\PycharmProjects\Deutro\teacher" />
     </key>
   </component>
   <component name="RunManager" selected="Django Server.Deutro">
@@ -170,6 +176,9 @@
       <list>
         <item itemvalue="Python.tests (1)" />
         <item itemvalue="Python.tests" />
+        <item itemvalue="Python.tests (1)" />
+        <item itemvalue="Python.tests" />
+        <item itemvalue="Python.tests (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -179,6 +188,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="01593eba-d2bb-4c5b-bde5-a18b28889969" name="Default Changelist" comment="" />
+      <changelist id="8dac1c58-037c-4f04-8cc3-e923997efdd2" name="edit .gitignore" comment="" />
       <created>1546638524558</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -186,6 +196,7 @@
       <workItem from="1623054986284" duration="19019000" />
       <workItem from="1623074557818" duration="7035000" />
       <workItem from="1623144117010" duration="585000" />
+      <workItem from="1623144731557" duration="7283000" />
     </task>
     <task id="LOCAL-00001" summary="Created Models and added to admin">
       <created>1546659391397</created>
@@ -267,15 +278,6 @@
     <option name="localTasksCounter" value="12" />
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
@@ -284,7 +286,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="development" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -311,18 +325,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="267" y="19" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1623136960081" />
-    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623060602883">
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623145704471">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1623060602883" />
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1623145704471" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1623057583663">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1623057583663" />
-    <state x="347" y="49" width="587" height="582" key="find.popup" timestamp="1623070842615">
+    <state x="489" y="255" key="VCS.ChangelistChooser" timestamp="1623151138911">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="347" y="49" width="587" height="582" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1623070842615" />
+    <state x="489" y="255" key="VCS.ChangelistChooser/0.0.1280.680@0.0.1280.680" timestamp="1623151138911" />
+    <state x="347" y="49" width="587" height="582" key="find.popup" timestamp="1623149278547">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="347" y="49" width="587" height="582" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1623149278547" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1623059318219">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
