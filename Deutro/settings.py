@@ -34,12 +34,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'Deutro',
-    'customer',
+    'users',
+    'school',
     'domain',
     'django_hosts',
     'rest_framework',
     'channels'
-
 
 ]
 
@@ -73,7 +73,7 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
-            'builtins': ['django_hosts.templatetags.hosts_override',]
+            'builtins': ['django_hosts.templatetags.hosts_override', ]
         },
     },
 ]
@@ -86,7 +86,7 @@ ASGI_APPLICATION = "Deutro.routing.application"
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db2.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     },
     'default_1': {
         'ENGINE': 'django_multitenant.backends.postgresql',
@@ -136,5 +136,4 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 LOGOUT_REDIRECT_URL = '/'
 
-AUTH_USER_MODEL = "customer.customer"
-
+AUTH_USER_MODEL = 'users.User'

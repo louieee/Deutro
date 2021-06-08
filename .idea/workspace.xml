@@ -20,13 +20,41 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:development" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:clean_sheets" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01593eba-d2bb-4c5b-bde5-a18b28889969" name="Default Changelist" comment="designed templates for all except teacher and student templates">
+      <change afterPath="$PROJECT_DIR$/school/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deutro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deutro/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/school/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/apis.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/school/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/school/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/serializer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/templates/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/templates/customer/dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db2.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervisor/deutro_celery.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervisor/deutro_celerybeat.conf" beforeDir="false" />
     </list>
     <list id="8dac1c58-037c-4f04-8cc3-e923997efdd2" name="edit .gitignore" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +72,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -76,7 +104,7 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/teacher/migrations" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -84,18 +112,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\melet\PycharmProjects\Deutro\templates" />
-      <recent name="C:\Users\melet\PycharmProjects\Deutro\teacher" />
-      <recent name="C:\Users\melet\PycharmProjects\Deutro\subject" />
-      <recent name="C:\Users\melet\PycharmProjects\Deutro\student" />
-      <recent name="C:\Users\melet\PycharmProjects\Deutro\school" />
+      <recent name="C:\Users\melet\PycharmProjects\Deutro\teacher\migrations" />
+      <recent name="C:\Users\melet\PycharmProjects\Deutro\subject\migrations" />
+      <recent name="C:\Users\melet\PycharmProjects\Deutro\student\migrations" />
+      <recent name="C:\Users\melet\PycharmProjects\Deutro\school\migrations" />
+      <recent name="C:\Users\melet\PycharmProjects\Deutro\result\migrations" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\melet\PycharmProjects\Deutro" />
       <recent name="C:\Users\melet\PycharmProjects\Deutro\customer" />
       <recent name="C:\Users\melet\PycharmProjects\Deutro\Deutro\templatetags" />
       <recent name="C:\Users\melet\PycharmProjects\Deutro\Deutro" />
       <recent name="C:\Users\USER\PycharmProjects\Deutro\templates" />
-      <recent name="C:\Users\USER\PycharmProjects\Deutro\teacher" />
     </key>
   </component>
   <component name="RunManager" selected="Django Server.Deutro">
@@ -292,7 +320,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="development" />
+                        <option value="clean_sheets" />
                       </list>
                     </value>
                   </entry>
@@ -325,10 +353,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="267" y="19" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1623136960081" />
-    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623145704471">
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623167120325">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1623145704471" />
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1623167120325" />
+    <state x="121" y="50" key="MergeDialog" timestamp="1623153148596">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="50" key="MergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1623153148596" />
+    <state x="530" y="208" key="MultipleFileMergeDialog" timestamp="1623153148605">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="530" y="208" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1623153148605" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1623057583663">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -337,10 +373,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="489" y="255" key="VCS.ChangelistChooser/0.0.1280.680@0.0.1280.680" timestamp="1623151138911" />
+    <state x="242" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1623165707701">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="242" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.680@0.0.1280.680" timestamp="1623165707701" />
     <state x="347" y="49" width="587" height="582" key="find.popup" timestamp="1623149278547">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="347" y="49" width="587" height="582" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1623149278547" />
+    <state x="422" y="53" key="git4idea.branch.GitSmartOperationDialog" timestamp="1623152555927">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="422" y="53" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.680@0.0.1280.680" timestamp="1623152555927" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1623059318219">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
