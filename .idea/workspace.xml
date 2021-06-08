@@ -26,10 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01593eba-d2bb-4c5b-bde5-a18b28889969" name="Default Changelist" comment="designed templates for all except teacher and student templates">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deutro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deutro/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deutro/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deutro/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +194,7 @@
       <workItem from="1623054986284" duration="19019000" />
       <workItem from="1623074557818" duration="7035000" />
       <workItem from="1623144117010" duration="585000" />
-      <workItem from="1623144731557" duration="4334000" />
+      <workItem from="1623144731557" duration="5818000" />
     </task>
     <task id="LOCAL-00001" summary="Created Models and added to admin">
       <created>1546659391397</created>
@@ -333,10 +331,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1623057583663" />
-    <state x="347" y="49" width="587" height="582" key="find.popup" timestamp="1623148173438">
+    <state x="347" y="49" width="587" height="582" key="find.popup" timestamp="1623149278547">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="347" y="49" width="587" height="582" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1623148173438" />
+    <state x="347" y="49" width="587" height="582" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1623149278547" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1623059318219">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
