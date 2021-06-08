@@ -26,129 +26,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01593eba-d2bb-4c5b-bde5-a18b28889969" name="Default Changelist" comment="designed templates for all except teacher and student templates">
-      <change afterPath="$PROJECT_DIR$/customer/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deutro/api_urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deutro/api_urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deutro/frontend_urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deutro/frontend_urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Deutro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deutro/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/customer/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/apis.py" beforeDir="false" afterPath="$PROJECT_DIR$/customer/apis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/form.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/customer/templates/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/customer/serializer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/account/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/account/signup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/account/signup_student.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/account/signup_teacher.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/apis.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/migrations/0002_alter_assignment_id.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/serializer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/customer/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/apis.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/migrations/0002_auto_20190114_0607.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/migrations/0003_auto_20210607_0953.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/serializer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/templates/card/create_card.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/customer/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/apis.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/migrations/0002_result_student.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/migrations/0003_auto_20190114_0538.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/migrations/0004_alter_result_id.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/serializer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/customer/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/apis.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/migrations/0002_alter_school_id.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/serializer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/templates/school/add_school.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/templates/school/school_detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/templates/school/school_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/apis.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/customer/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/customer/decorators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/migrations/0002_auto_20210607_0953.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/serializer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/templates/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/templates/student/assignment_detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/templates/student/assignments.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/templates/student/check_result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/templates/student/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/customer/templates/customer/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/subject/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/subject/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/subject/apis.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/subject/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/subject/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/subject/migrations/0002_alter_subject_id.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/subject/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/subject/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/subject/serializer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/subject/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/subject/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/apis.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/migrations/0002_auto_20190110_0453.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/migrations/0003_auto_20190110_0453.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/serializer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/templates/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/templates/teacher/dashboard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/templates/teacher/give_assignment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/templates/teacher/upload_result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/templates/teacher/view_assignments.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deutro/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deutro/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -315,7 +196,7 @@
       <workItem from="1623054986284" duration="19019000" />
       <workItem from="1623074557818" duration="7035000" />
       <workItem from="1623144117010" duration="585000" />
-      <workItem from="1623144731557" duration="3559000" />
+      <workItem from="1623144731557" duration="4334000" />
     </task>
     <task id="LOCAL-00001" summary="Created Models and added to admin">
       <created>1546659391397</created>
