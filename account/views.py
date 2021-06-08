@@ -134,7 +134,7 @@ def signup_student(request):
                               {'error': error, 'classes': classes, 'status': status, 'schools': School.objects.all()})
             except User.DoesNotExist:
                 user = User.objects.create_user(username=username, password=pass1, is_student=True)
-                school = School.objects.all().get(name=school)
+                school = School.objects.get(name=school)
                 d_student = Student(School_id=sch_id, user=user, First_Name=fn, Last_Name=ln, Entry_year=int(entry_yr),
                                     Gender=int(gen), is_primary=prim, is_secondary=sec, stage=stage,
                                     Age=date(int(dob[0]), int(dob[1]), int(dob[2])))

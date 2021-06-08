@@ -20,170 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01593eba-d2bb-4c5b-bde5-a18b28889969" name="Default Changelist" comment="designed templates for all except teacher and student templates">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ee0f29d6-5c9f-4385-a065-40ee56b3298a.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/api_urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/frontend_urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/hosts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/middleware.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/routing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deutro/templatetags/custom_tags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilities/custom_views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/apis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/apis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/migrations/0002_alter_assignment_id.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/card/apis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/card/migrations/0003_auto_20210607_0953.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/card/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/management/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/management/commands/create_domains.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/middleware.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result/apis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result/migrations/0004_alter_result_id.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/apis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/migrations/0002_alter_school_id.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student/apis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student/migrations/0002_auto_20210607_0953.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/subject/apis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/subject/migrations/0002_alter_subject_id.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/subject/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teacher/apis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teacher/serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Deutro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Deutro.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deutro/PDF.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/python_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deutro/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deutro/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Deutro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deutro/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deutro/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deutro/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deutro/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deutro/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/account/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/account/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/account/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/account/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/account/signup_student.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/account/signup_student.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/account/signup_teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/account/signup_teacher.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/card/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/templates/card/create_card.html" beforeDir="false" afterPath="$PROJECT_DIR$/card/templates/card/create_card.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Lib/tcl8.6/init.tcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/Activate.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_asyncio.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_asyncio_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_bz2.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_bz2_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_contextvars.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_contextvars_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_ctypes.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_ctypes_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_ctypes_test.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_ctypes_test_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_decimal.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_decimal_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_distutils_findvs.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_distutils_findvs_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_elementtree.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_elementtree_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_hashlib.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_hashlib_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_lzma.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_lzma_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_msi.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_msi_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_multiprocessing.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_multiprocessing_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_overlapped.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_overlapped_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_queue.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_queue_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_socket.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_socket_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_sqlite3.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_sqlite3_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_ssl.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_ssl_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_testbuffer.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_testbuffer_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_testcapi.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_testcapi_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_testconsole.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_testconsole_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_testimportmultiple.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_testimportmultiple_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_testmultiphase.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_testmultiphase_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_tkinter.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/_tkinter_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/activate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/activate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/deactivate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/libcrypto-1_1-x64.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/libssl-1_1-x64.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/pyexpat.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/pyexpat_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/python.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/python3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/python37.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/python37_d.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/python3_d.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/python_d.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/pythonw.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/pythonw_d.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/select.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/select_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/sqlite3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/sqlite3_d.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/tcl86t.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/tk86t.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/unicodedata.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/unicodedata_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/vcruntime140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/winsound.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/Scripts/winsound_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_venv/pyvenv.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/result/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/result/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/school/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/school/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/school/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/templates/school/add_school.html" beforeDir="false" afterPath="$PROJECT_DIR$/school/templates/school/add_school.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/templates/school/school_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/school/templates/school/school_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/templates/school/school_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/school/templates/school/school_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/student/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/templates/student/assignment_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/student/templates/student/assignment_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/templates/student/assignments.html" beforeDir="false" afterPath="$PROJECT_DIR$/student/templates/student/assignments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/templates/student/check_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/student/templates/student/check_result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/templates/student/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/student/templates/student/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/student/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/student/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subject/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/subject/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/teacher/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/templates/teacher/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/teacher/templates/teacher/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/templates/teacher/give_assignment.html" beforeDir="false" afterPath="$PROJECT_DIR$/teacher/templates/teacher/give_assignment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/templates/teacher/upload_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/teacher/templates/teacher/upload_result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teacher/templates/teacher/view_assignments.html" beforeDir="false" afterPath="$PROJECT_DIR$/teacher/templates/teacher/view_assignments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -339,7 +184,8 @@
       <option name="presentableId" value="Default" />
       <updated>1546638524558</updated>
       <workItem from="1623054986284" duration="19019000" />
-      <workItem from="1623074557818" duration="3558000" />
+      <workItem from="1623074557818" duration="7035000" />
+      <workItem from="1623144117010" duration="585000" />
     </task>
     <task id="LOCAL-00001" summary="Created Models and added to admin">
       <created>1546659391397</created>
@@ -461,6 +307,10 @@
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="267" y="19" key="#Inspections" timestamp="1623136960081">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="267" y="19" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1623136960081" />
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623060602883">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

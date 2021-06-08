@@ -20,4 +20,4 @@ class School(TenantModel):
     # class Meta(object):
     #     unique_together = ["id", "store"]
 
-    objects = SchoolManager
+    objects = SchoolManager()

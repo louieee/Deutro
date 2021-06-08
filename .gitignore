@@ -8,4 +8,6 @@ db.sqlite3
 media
 my_venv
 .env
-
+celerybeat-schedule.bak
+celerybeat-schedule.dat
+celerybeat-schedule.dir
