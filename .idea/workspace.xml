@@ -25,10 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01593eba-d2bb-4c5b-bde5-a18b28889969" name="Default Changelist" comment="designed templates for all except teacher and student templates">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="01593eba-d2bb-4c5b-bde5-a18b28889969" name="Default Changelist" comment="designed templates for all except teacher and student templates" />
+    <list id="8dac1c58-037c-4f04-8cc3-e923997efdd2" name="edit .gitignore" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,6 +71,7 @@
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
@@ -187,6 +186,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="01593eba-d2bb-4c5b-bde5-a18b28889969" name="Default Changelist" comment="" />
+      <changelist id="8dac1c58-037c-4f04-8cc3-e923997efdd2" name="edit .gitignore" comment="" />
       <created>1546638524558</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -194,7 +194,7 @@
       <workItem from="1623054986284" duration="19019000" />
       <workItem from="1623074557818" duration="7035000" />
       <workItem from="1623144117010" duration="585000" />
-      <workItem from="1623144731557" duration="5818000" />
+      <workItem from="1623144731557" duration="6455000" />
     </task>
     <task id="LOCAL-00001" summary="Created Models and added to admin">
       <created>1546659391397</created>
@@ -331,6 +331,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1623057583663" />
+    <state x="489" y="255" key="VCS.ChangelistChooser" timestamp="1623151138911">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="489" y="255" key="VCS.ChangelistChooser/0.0.1280.680@0.0.1280.680" timestamp="1623151138911" />
     <state x="347" y="49" width="587" height="582" key="find.popup" timestamp="1623149278547">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

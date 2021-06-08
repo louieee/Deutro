@@ -36,10 +36,10 @@ PS: More updates will be coming from time to time.
     <li>Set up your virtual environment.</li>
     <li>Run <code>pip install -r requirements.txt</code></li>
     <li>Run  <code>python manage.py migrate</code></li>
-    <li>Run <code>python manage.py create_domains</code></li>
+    <li>Run <code>python manage.py create_domains</code>three times </li>
     <ul>
-        <li>Domains should be <code>localhost</code>
-        <li>Name should be <code>LocalHost</code> or virtually whatever you want.</li>
+        <li>Domains should be <code>localhost</code>,  <code>admin.localhost</code>,  <code>api.localhost</code>
+        <li>Name can be virtually whatever you want.</li>
     </ul>
     <li>run <code>python manage.py createsuperuser</code></li>
     <li>run <code>python manage.py runserver</code> </li>
