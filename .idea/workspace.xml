@@ -26,14 +26,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01593eba-d2bb-4c5b-bde5-a18b28889969" name="Default Changelist" comment="designed templates for all except teacher and student templates">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ee0f29d6-5c9f-4385-a065-40ee56b3298a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ee0f29d6-5c9f-4385-a065-40ee56b3298a.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/school/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/migrations/0002_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/migrations/0003_auto_20210608_1700.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/migrations/0004_alter_student_school.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/migrations/0005_auto_20210609_1237.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/migrations/0006_auto_20210609_1329.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/migrations/0007_alter_class_options.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/school/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/school/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/migrations/0001_initial.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/users/migrations/0002_alter_user_gender.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/users/migrations/0003_alter_user_gender.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
     </list>
     <list id="8dac1c58-037c-4f04-8cc3-e923997efdd2" name="edit .gitignore" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +88,7 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/teacher/migrations" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -91,11 +96,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\melet\PycharmProjects\Deutro" />
       <recent name="C:\Users\melet\PycharmProjects\Deutro\teacher\migrations" />
       <recent name="C:\Users\melet\PycharmProjects\Deutro\subject\migrations" />
       <recent name="C:\Users\melet\PycharmProjects\Deutro\student\migrations" />
       <recent name="C:\Users\melet\PycharmProjects\Deutro\school\migrations" />
-      <recent name="C:\Users\melet\PycharmProjects\Deutro\result\migrations" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\melet\PycharmProjects\Deutro" />
@@ -105,7 +110,7 @@
       <recent name="C:\Users\USER\PycharmProjects\Deutro\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Django Server.Deutro">
+  <component name="RunManager" selected="Shell Script.script.bash">
     <configuration name="tests (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Deutro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,18 +179,30 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="script.bash" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/script.bash" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Django Server.Deutro" />
       <item itemvalue="Python.tests" />
       <item itemvalue="Python.tests (1)" />
+      <item itemvalue="Shell Script.script.bash" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Shell Script.script.bash" />
         <item itemvalue="Python.tests (1)" />
         <item itemvalue="Python.tests" />
         <item itemvalue="Python.tests (1)" />
         <item itemvalue="Python.tests" />
-        <item itemvalue="Python.tests (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -332,10 +349,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="267" y="19" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1623136960081" />
-    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623167120325">
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623245194545">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1623167120325" />
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1623245194545" />
     <state width="834" height="161" key="GridCell.Tab.0.bottom" timestamp="1623244469533">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

@@ -75,7 +75,7 @@ class Teacher(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return self.user
+        return self.user.username
 
 
 class Employer(models.Model):
@@ -85,7 +85,7 @@ class Employer(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return self.user
+        return self.user.username
 
 
 class Class(models.Model):
@@ -109,7 +109,7 @@ class Student(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return self.user
+        return self.user.username
 
 
 class Session(models.Model):
@@ -118,6 +118,9 @@ class Session(models.Model):
     entry_year = models.DateField()
     class_level = models.OneToOneField('school.Class', on_delete=models.SET_NULL, null=True)
     report = models.JSONField()
+
+    def __str__(self):
+        return f'{self.get_term_display()} term for {self.entry_year.year} for {self.student}'
 
 
 class Curriculum(models.Model):
