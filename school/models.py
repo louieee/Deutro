@@ -58,7 +58,6 @@ class School(models.Model):
     name = models.CharField(max_length=50, default='')
     contact_info = models.ManyToManyField('users.Contact')
     domains = models.ManyToManyField('domain.Domain')
-    owner = models.OneToOneField('school.Employer', on_delete=models.SET_NULL, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
@@ -78,14 +77,15 @@ class Teacher(models.Model):
         return self.user.username
 
 
-class Employer(models.Model):
+class Admin(models.Model):
     user = models.OneToOneField('users.User', on_delete=models.CASCADE)
     title = models.CharField(max_length=30, default='')
+    school = models.ForeignKey('school.School', on_delete=models.CASCADE)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return self.user.username
+        return f'{self.school}: {self.title}'
 
 
 class Class(models.Model):
@@ -113,10 +113,11 @@ class Student(models.Model):
 
 
 class Session(models.Model):
-    student = models.OneToOneField('school.Student', on_delete=models.CASCADE)
+    student = models.ForeignKey('school.Student', on_delete=models.CASCADE)
     term = models.PositiveSmallIntegerField(choices=Choice.term, null=True, default=None)
     entry_year = models.DateField()
-    class_level = models.OneToOneField('school.Class', on_delete=models.SET_NULL, null=True)
+    class_level = models.ForeignKey('school.Class', on_delete=models.SET_NULL, null=True)
+    subjects = models.ManyToManyField('school.Subject')
     report = models.JSONField()
 
     def __str__(self):
@@ -168,6 +169,7 @@ class Result(models.Model):
     report = models.JSONField()
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+
 
     def __str__(self):
         return f'{self.session.student} Result test for {self.test}'

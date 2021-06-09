@@ -4,7 +4,7 @@ from .models import *
 # Register your models here.
 
 admin.site.register(School)
-admin.site.register(Employer)
+admin.site.register(Admin)
 admin.site.register(Student)
 admin.site.register(Session)
 admin.site.register(Class)

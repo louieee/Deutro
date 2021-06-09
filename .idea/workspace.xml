@@ -27,18 +27,9 @@
   <component name="ChangeListManager">
     <list default="true" id="01593eba-d2bb-4c5b-bde5-a18b28889969" name="Default Changelist" comment="designed templates for all except teacher and student templates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/migrations/0002_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/migrations/0003_auto_20210608_1700.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/migrations/0004_alter_student_school.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/migrations/0005_auto_20210609_1237.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/migrations/0006_auto_20210609_1329.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/migrations/0007_alter_class_options.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/school/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/school/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/school/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0002_alter_user_gender.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0003_alter_user_gender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
     </list>
     <list id="8dac1c58-037c-4f04-8cc3-e923997efdd2" name="edit .gitignore" comment="" />
     <option name="SHOW_DIALOG" value="false" />
