@@ -20,6 +20,9 @@ class User(AbstractUser):
     gender = models.PositiveSmallIntegerField(choices=Choice.gender, null=True, default=None)
     contact_info = models.ManyToManyField('users.Contact')
 
+    def __str__(self):
+        return self.username
+
 
 class Contact(models.Model):
     address = models.CharField(max_length=50, default='')

@@ -20,41 +20,20 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:clean_sheets" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:working" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01593eba-d2bb-4c5b-bde5-a18b28889969" name="Default Changelist" comment="designed templates for all except teacher and student templates">
-      <change afterPath="$PROJECT_DIR$/school/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ee0f29d6-5c9f-4385-a065-40ee56b3298a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ee0f29d6-5c9f-4385-a065-40ee56b3298a.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deutro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deutro/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/school/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/apis.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/school/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/school/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/serializer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/templates/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/templates/customer/dashboard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db2.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/supervisor/deutro_celery.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/supervisor/deutro_celerybeat.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/school/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/school/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/migrations/0002_alter_user_gender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/migrations/0003_alter_user_gender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
     </list>
     <list id="8dac1c58-037c-4f04-8cc3-e923997efdd2" name="edit .gitignore" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +64,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="clean_sheets" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -357,6 +336,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1623167120325" />
+    <state width="834" height="161" key="GridCell.Tab.0.bottom" timestamp="1623244469533">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="834" height="161" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1623244469533" />
+    <state width="834" height="161" key="GridCell.Tab.0.center" timestamp="1623244469533">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="834" height="161" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1623244469533" />
+    <state width="834" height="161" key="GridCell.Tab.0.left" timestamp="1623244469533">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="834" height="161" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1623244469533" />
+    <state width="834" height="161" key="GridCell.Tab.0.right" timestamp="1623244469533">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="834" height="161" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1623244469533" />
     <state x="121" y="50" key="MergeDialog" timestamp="1623153148596">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -373,6 +368,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="489" y="255" key="VCS.ChangelistChooser/0.0.1280.680@0.0.1280.680" timestamp="1623151138911" />
+    <state x="484" y="113" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1623244629323">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="484" y="113" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1623244629323" />
     <state x="242" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1623165707701">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

@@ -3,9 +3,27 @@ from django.db import models
 
 # Create your models here.
 
+
+class Subject(models.Model):
+    name = models.CharField(max_length=50, default='')
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return self.name
+
+
 class Choice:
     class Term:
         first, second, third, fourth, fifth = range(5)
+
+    class Institution:
+        pre_school, high_school, university = range(3)
+
+    institution = (
+        (Institution.pre_school, 'Pre School'), (Institution.high_school, 'High School'),
+        (Institution.university, 'University')
+    )
 
     term = (
         (Term.first, 'First'), (Term.second, 'Second'), (Term.third, 'Third'),
@@ -40,8 +58,12 @@ class School(models.Model):
     name = models.CharField(max_length=50, default='')
     contact_info = models.ManyToManyField('users.Contact')
     domains = models.ManyToManyField('domain.Domain')
+    owner = models.OneToOneField('school.Employer', on_delete=models.SET_NULL, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return self.name
 
 
 class Teacher(models.Model):
@@ -52,45 +74,61 @@ class Teacher(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
+    def __str__(self):
+        return self.user
+
 
 class Employer(models.Model):
     user = models.OneToOneField('users.User', on_delete=models.CASCADE)
-    school = models.ForeignKey('school.School', on_delete=models.CASCADE)
     title = models.CharField(max_length=30, default='')
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
-
-class Subject(models.Model):
-    name = models.CharField(max_length=50, default='')
-    created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(auto_now=True)
+    def __str__(self):
+        return self.user
 
 
 class Class(models.Model):
-    institution = models.CharField(max_length=30, default='')
+    institution = models.PositiveSmallIntegerField(choices=Choice.institution, default=Choice.Institution.pre_school)
     level = models.CharField(max_length=20, default='')
+    school = models.ForeignKey('school.School', on_delete=models.CASCADE, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
+    def __str__(self):
+        return f'{self.school}: {self.level}'
+
+    class Meta:
+        verbose_name_plural = 'Classes'
+
 
 class Student(models.Model):
-    user = models.OneToOneField('users.User', on_delete=models.CASCADE, related_name='user')
-    school = models.ForeignKey('users.User', on_delete=models.CASCADE, related_name='school')
-    class_s = models.ForeignKey('school.Class', on_delete=models.SET_NULL, null=True)
-    subjects = models.ManyToManyField('school.Subject')
+    user = models.OneToOneField('users.User', on_delete=models.CASCADE)
     guardians = models.ManyToManyField('users.User', limit_choices_to={'is_parent': True}, related_name='guardians')
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
+    def __str__(self):
+        return self.user
+
+
+class Session(models.Model):
+    student = models.OneToOneField('school.Student', on_delete=models.CASCADE)
+    term = models.PositiveSmallIntegerField(choices=Choice.term, null=True, default=None)
+    entry_year = models.DateField()
+    class_level = models.OneToOneField('school.Class', on_delete=models.SET_NULL, null=True)
+    report = models.JSONField()
+
 
 class Curriculum(models.Model):
-    school = models.ForeignKey('school.School', on_delete=models.CASCADE)
-    class_s = models.ForeignKey('school.Class', on_delete=models.CASCADE)
     subject = models.ForeignKey('school.Subject', on_delete=models.CASCADE)
+    class_level = models.ForeignKey('school.Class', on_delete=models.CASCADE)
     term = models.PositiveSmallIntegerField(choices=Choice.term, null=True, default=None)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return f'{self.subject} for {self.class_level} for {dict(Choice.term)[self.term]} term.'
 
 
 class CurriculumItem(models.Model):
@@ -104,6 +142,9 @@ class CurriculumItem(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
+    def __str__(self):
+        return self.title
+
 
 class Test(models.Model):
     type = models.PositiveSmallIntegerField(choices=Choice.test_type, null=True, default=None)
@@ -113,14 +154,20 @@ class Test(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
+    def __str__(self):
+        return f'Test for {self.curriculum}'
+
 
 class Result(models.Model):
     test = models.ForeignKey('school.Test', on_delete=models.SET_NULL, null=True)
-    student = models.ForeignKey('school.Student', on_delete=models.CASCADE)
+    session = models.ForeignKey('school.Session', on_delete=models.CASCADE, null=True)
     score = models.DecimalField(decimal_places=2, max_digits=6)
     report = models.JSONField()
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return f'{self.session.student} Result test for {self.test}'
 
 
 class Question(models.Model):
@@ -131,6 +178,9 @@ class Question(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
+    def __str__(self):
+        return self.question
+
 
 class QuestionOption(models.Model):
     question = models.ForeignKey('school.Question', on_delete=models.CASCADE)
@@ -138,3 +188,6 @@ class QuestionOption(models.Model):
     answer = models.BooleanField(default=False)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return self.content
