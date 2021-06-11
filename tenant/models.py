@@ -2,8 +2,7 @@ from django.db import models
 
 
 # Create your models here.
-
-
+from jsonfield import JSONField
 
 
 class Choice:
@@ -100,7 +99,7 @@ class Session(models.Model):
     entry_year = models.DateField()
     class_level = models.ForeignKey('Class', on_delete=models.SET_NULL, null=True)
     subjects = models.ManyToManyField('shared.Subject')
-    report = models.JSONField()
+    report = JSONField()
 
     def __str__(self):
         return f'{self.get_term_display()} term for {self.entry_year.year} for {self.student}'
@@ -148,7 +147,7 @@ class Result(models.Model):
     test = models.ForeignKey('Test', on_delete=models.SET_NULL, null=True)
     session = models.ForeignKey('Session', on_delete=models.CASCADE, null=True)
     score = models.DecimalField(decimal_places=2, max_digits=6)
-    report = models.JSONField()
+    report = JSONField()
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 

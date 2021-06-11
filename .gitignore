@@ -6,6 +6,7 @@ local_settings.py
 *.sqlite3
 media
 my_venv
+my_venv_
 .env
 celerybeat-schedule.bak
 celerybeat-schedule.dat

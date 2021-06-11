@@ -26,22 +26,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01593eba-d2bb-4c5b-bde5-a18b28889969" name="Default Changelist" comment="designed templates for all except teacher and student templates">
+      <change beforePath="$PROJECT_DIR$/.idea/Deutro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Deutro.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deutro/api_urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deutro/frontend_urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deutro/hosts.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Deutro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deutro/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/middleware.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/migrations/0001_initial.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/school/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/migrations/0002_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/migrations/0003_session_subjects.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/migrations/0004_auto_20210609_1504.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/migrations/0005_auto_20210609_1515.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/school/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tenant/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tenant/migrations/0002_initial.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tenant/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tenant/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
     </list>
     <list id="8dac1c58-037c-4f04-8cc3-e923997efdd2" name="edit .gitignore" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +66,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="django_tenant" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -98,19 +92,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\melet\PycharmProjects\Deutro" />
-      <recent name="C:\Users\melet\PycharmProjects\Deutro\customer" />
-      <recent name="C:\Users\melet\PycharmProjects\Deutro\Deutro\templatetags" />
-      <recent name="C:\Users\melet\PycharmProjects\Deutro\Deutro" />
-      <recent name="C:\Users\USER\PycharmProjects\Deutro\templates" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\melet\PycharmProjects\Deutro\commands" />
       <recent name="C:\Users\melet\PycharmProjects\Deutro" />
       <recent name="C:\Users\melet\PycharmProjects\Deutro\teacher\migrations" />
       <recent name="C:\Users\melet\PycharmProjects\Deutro\subject\migrations" />
       <recent name="C:\Users\melet\PycharmProjects\Deutro\student\migrations" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\melet\PycharmProjects\Deutro" />
+      <recent name="C:\Users\melet\PycharmProjects\Deutro\customer" />
+      <recent name="C:\Users\melet\PycharmProjects\Deutro\Deutro\templatetags" />
+      <recent name="C:\Users\melet\PycharmProjects\Deutro\Deutro" />
+      <recent name="C:\Users\USER\PycharmProjects\Deutro\templates" />
     </key>
   </component>
   <component name="RunManager" selected="Shell Script.script.bash">
@@ -204,8 +198,8 @@
         <item itemvalue="Shell Script.script.bash" />
         <item itemvalue="Python.tests (1)" />
         <item itemvalue="Python.tests" />
+        <item itemvalue="Shell Script.script.bash" />
         <item itemvalue="Python.tests (1)" />
-        <item itemvalue="Python.tests" />
       </list>
     </recent_temporary>
   </component>
@@ -384,10 +378,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="530" y="208" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1623153148605" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1623403931290">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1623425183026">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1623403931290" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1623425183026" />
     <state x="489" y="255" key="VCS.ChangelistChooser" timestamp="1623151138911">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

@@ -29,6 +29,7 @@ S_APPS = (
     'school',  # you must list the app where your tenant model resides in
     'shared',
     'domain',
+    'users',
     'django.contrib.contenttypes',
     # everything below here is optional
     'django.contrib.auth',
@@ -44,9 +45,9 @@ T_APPS = (
 
     # your tenant-specific apps
     'tenant',
-    'users',
 )
 EXTRA_APPS = (
+    'users',
     'django.contrib.auth',
     'django.contrib.sessions',
     'django.contrib.sites',
@@ -113,7 +114,7 @@ DATABASES = {
         'PORT': '5432',
         'USER': 'postgres',
         'PASSWORD': 'MONKEYSex',
-        'NAME': 'deutro',
+        'NAME': 'deutron',
         # ..
     }
 
