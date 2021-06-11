@@ -50,8 +50,8 @@ class Choice:
 class Teacher(models.Model):
     user = models.OneToOneField('users.User', on_delete=models.CASCADE)
     school = models.ForeignKey('school.School', on_delete=models.CASCADE)
-    subjects = models.ManyToManyField('school.Subject')
-    classes = models.ManyToManyField('school.Class')
+    subjects = models.ManyToManyField('shared.Subject')
+    classes = models.ManyToManyField('Class')
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
@@ -95,7 +95,7 @@ class Student(models.Model):
 
 
 class Session(models.Model):
-    student = models.ForeignKey('school.Student', on_delete=models.CASCADE)
+    student = models.ForeignKey('Student', on_delete=models.CASCADE)
     term = models.PositiveSmallIntegerField(choices=Choice.term, null=True, default=None)
     entry_year = models.DateField()
     class_level = models.ForeignKey('Class', on_delete=models.SET_NULL, null=True)

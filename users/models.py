@@ -18,7 +18,7 @@ class User(AbstractUser):
     is_employer = models.BooleanField(default=False)
     date_of_birth = models.DateField(default=None, null=True, blank=True)
     gender = models.PositiveSmallIntegerField(choices=Choice.gender, null=True, default=None)
-    contact_info = models.ManyToManyField('users.Contact')
+    contact_info = models.ManyToManyField('shared.Contact')
 
     def __str__(self):
         return self.username

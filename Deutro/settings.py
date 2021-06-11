@@ -25,9 +25,8 @@ CELERY_RESULT_SERIALIZER = 'json'
 CELERY_TIMEZONE = 'Africa/Nigeria'
 
 # Application definition
-SHARED_APPS = (
-    'tenant_schemas',  # mandatory, should always be before any django app
-    'school', # you must list the app where your tenant model resides in
+S_APPS = (
+    'school',  # you must list the app where your tenant model resides in
     'shared',
     'domain',
     'django.contrib.contenttypes',
@@ -39,42 +38,32 @@ SHARED_APPS = (
     'django.contrib.admin',
 )
 
-TENANT_APPS = (
-    'django.contrib.contenttypes',
+SHARED_APPS = ('tenant_schemas',) + S_APPS
+
+T_APPS = (
 
     # your tenant-specific apps
     'tenant',
     'users',
+)
+EXTRA_APPS = (
     'django.contrib.auth',
     'django.contrib.sessions',
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.admin',
+)
+TENANT_APPS = ('django.contrib.contenttypes',) + T_APPS + EXTRA_APPS
 
+I_APPS = (
+    'Deutro',
+    'rest_framework',
+    'channels',
 )
 
-INSTALLED_APPS = [
-    'tenant_schemas',
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'Deutro',
-    'users',
-    'school',
-    'domain',
-    'shared',
-    'tenant',
-    'django_hosts',
-    'rest_framework',
-    'channels'
-
-]
+INSTALLED_APPS = ('tenant_schemas',) + S_APPS + T_APPS + I_APPS
 
 MIDDLEWARE = [
-    'django_hosts.middleware.HostsRequestMiddleware',
     'tenant_schemas.middleware.TenantMiddleware',
     'Deutro.middleware.MyDefaultTenantMiddleware',
     'django.middleware.security.SecurityMiddleware',
@@ -84,16 +73,11 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'domain.middleware.CurrentDomainMiddleware',
-    'django_hosts.middleware.HostsResponseMiddleware',
 ]
-
 
 TENANT_MODEL = "school.School"
 
 ROOT_URLCONF = 'Deutro.urls'
-ROOT_HOSTCONF = 'Deutro.hosts'
-DEFAULT_HOST = 'www'
 
 TEMPLATES = [
     {
@@ -109,7 +93,6 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
 
             ],
-            'builtins': ['django_hosts.templatetags.hosts_override', ]
         },
     },
 ]
@@ -120,14 +103,19 @@ ASGI_APPLICATION = "Deutro.routing.application"
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
+    'default_': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     },
-    'default_': {
-            'ENGINE': 'tenant_schemas.postgresql_backend',
-            # ..
-        }
+    'default': {
+        'ENGINE': 'tenant_schemas.postgresql_backend',
+        'HOST': 'localhost',
+        'PORT': '5432',
+        'USER': 'postgres',
+        'PASSWORD': 'MONKEYSex',
+        'NAME': 'deutro',
+        # ..
+    }
 
 }
 
@@ -183,8 +171,6 @@ STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 DEFAULT_FILE_STORAGE = 'tenant_schemas.storage.TenantFileSystemStorage'
-
-
 
 LOGOUT_REDIRECT_URL = '/'
 

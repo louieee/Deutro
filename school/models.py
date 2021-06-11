@@ -7,7 +7,7 @@ from tenant_schemas.models import TenantMixin
 
 class School(TenantMixin):
     name = models.CharField(max_length=50, default='', unique=True)
-    contact_info = models.ManyToManyField('users.Contact')
+    contact_info = models.ManyToManyField('shared.Contact')
     domains = models.ManyToManyField('domain.Domain')
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)

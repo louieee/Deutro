@@ -26,18 +26,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01593eba-d2bb-4c5b-bde5-a18b28889969" name="Default Changelist" comment="designed templates for all except teacher and student templates">
-      <change beforePath="$PROJECT_DIR$/.idea/Deutro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Deutro.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deutro/api_urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deutro/frontend_urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deutro/hosts.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Deutro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deutro/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/management/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/management/commands/create_domains.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/domain/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/school/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/middleware.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/migrations/0002_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/migrations/0003_session_subjects.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/migrations/0004_auto_20210609_1504.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/migrations/0005_auto_20210609_1515.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/school/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/school/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tenant/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tenant/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/migrations/0001_initial.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
     </list>
     <list id="8dac1c58-037c-4f04-8cc3-e923997efdd2" name="edit .gitignore" comment="" />
@@ -221,7 +224,7 @@
       <workItem from="1623074557818" duration="7035000" />
       <workItem from="1623144117010" duration="585000" />
       <workItem from="1623144731557" duration="7283000" />
-      <workItem from="1623403675985" duration="7807000" />
+      <workItem from="1623403675985" duration="10378000" />
     </task>
     <task id="LOCAL-00001" summary="Created Models and added to admin">
       <created>1546659391397</created>
@@ -353,10 +356,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="267" y="19" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1623136960081" />
-    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623245194545">
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623413990394">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1623245194545" />
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1623413990394" />
     <state width="834" height="161" key="GridCell.Tab.0.bottom" timestamp="1623244469533">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
