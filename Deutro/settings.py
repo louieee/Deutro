@@ -53,7 +53,6 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'domain.middleware.CurrentDomainMiddleware',
-    'Deutro.middleware.MultitenantMiddleware',
     'django_hosts.middleware.HostsResponseMiddleware',
 ]
 
@@ -88,9 +87,6 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     },
-    'default_1': {
-        'ENGINE': 'django_multitenant.backends.postgresql',
-    }
 
 }
 
