@@ -1,5 +1,5 @@
 import os
-from decouple import config, Csv
+from django.conf.global_settings import STATICFILES_FINDERS
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 
@@ -9,7 +9,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = config('SECRET')
+SECRET_KEY = 'thesecretofmydjangoapp'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -28,7 +28,7 @@ CELERY_TIMEZONE = 'Africa/Nigeria'
 S_APPS = (
     'school',  # you must list the app where your tenant model resides in
     'shared',
-    'domain',
+    'users',
     'django.contrib.contenttypes',
     # everything below here is optional
     'django.contrib.auth',
@@ -38,15 +38,15 @@ S_APPS = (
     'django.contrib.admin',
 )
 
-SHARED_APPS = ('tenant_schemas',) + S_APPS
+SHARED_APPS = ('django_tenants',) + S_APPS
 
 T_APPS = (
 
     # your tenant-specific apps
     'tenant',
-    'users',
 )
 EXTRA_APPS = (
+    'users',
     'django.contrib.auth',
     'django.contrib.sessions',
     'django.contrib.sites',
@@ -61,11 +61,10 @@ I_APPS = (
     'channels',
 )
 
-INSTALLED_APPS = ('tenant_schemas',) + S_APPS + T_APPS + I_APPS
+INSTALLED_APPS = ('django_tenants',) + S_APPS + T_APPS + I_APPS
 
 MIDDLEWARE = [
-    'tenant_schemas.middleware.TenantMiddleware',
-    'Deutro.middleware.MyDefaultTenantMiddleware',
+    'django_tenants.middleware.main.TenantMainMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -77,6 +76,8 @@ MIDDLEWARE = [
 
 TENANT_MODEL = "school.School"
 
+TENANT_DOMAIN_MODEL = "school.Domain"
+
 ROOT_URLCONF = 'Deutro.urls'
 
 TEMPLATES = [
@@ -87,8 +88,8 @@ TEMPLATES = [
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
-                'django.template.context_processors.debug',
                 'django.template.context_processors.request',
+                'django.template.context_processors.debug',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
 
@@ -108,7 +109,7 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     },
     'default': {
-        'ENGINE': 'tenant_schemas.postgresql_backend',
+        'ENGINE': 'django_tenants.postgresql_backend',
         'HOST': 'localhost',
         'PORT': '5432',
         'USER': 'postgres',
@@ -120,7 +121,7 @@ DATABASES = {
 }
 
 DATABASE_ROUTERS = (
-    'tenant_schemas.routers.TenantSyncRouter',
+    'django_tenants.routers.TenantSyncRouter',
 )
 
 # Password validation
@@ -175,3 +176,13 @@ DEFAULT_FILE_STORAGE = 'tenant_schemas.storage.TenantFileSystemStorage'
 LOGOUT_REDIRECT_URL = '/'
 
 AUTH_USER_MODEL = 'users.User'
+
+STATICFILES_FINDERS.insert(0, "django_tenants.staticfiles.finders.TenantFileSystemFinder")
+
+MULTITENANT_STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "tenants/%s/static"),
+]
+
+STATICFILES_STORAGE = "django_tenants.staticfiles.storage.TenantStaticFilesStorage"
+
+MULTITENANT_RELATIVE_STATIC_ROOT = ""  # (default: create sub-directory for each tenant)

@@ -7,5 +7,5 @@ admin.site.site_title = f"Admin Portal || || {config('APP_NAME')} || A Complete 
 admin.site.index_title = f"Welcome to {config('APP_NAME')} Admin Portal"
 
 urlpatterns = [
-    path('', admin.site.urls),
+    path('admin/', admin.site.urls),
 ]

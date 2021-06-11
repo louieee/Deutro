@@ -1,8 +1,10 @@
 import sys
+
+from django.contrib.sites.models import Site
 from django.core import exceptions
 from django.core.management.base import BaseCommand, CommandError
 from django.utils.text import capfirst
-from school.models import School
+from school.models import School, Domain
 
 
 class NotRunningInTTYException(Exception):
@@ -65,12 +67,18 @@ class Command(BaseCommand):
                 "Tenant creation skipped due to not running in a TTY. "
             )
         if domain and name and schema:
-            tenant_data = {
-                'domain_url': domain,
-                'name': name,
-                'schema_name': schema
-            }
-            self.TenantModel(**tenant_data).save()
+            tenant = School(schema_name=name,
+                            name=name)
+            tenant.save()
+            domain = Domain()
+            domain.domain = domain
+            domain.tenant = tenant
+            domain.is_primary = True
+            domain.save()
+            site = Site()
+            site.domain = domain
+            site.name = schema
+            site.save()
             if options['verbosity'] >= 1:
                 self.stdout.write("Tenant created successfully.")
 

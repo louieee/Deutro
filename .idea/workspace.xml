@@ -26,22 +26,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01593eba-d2bb-4c5b-bde5-a18b28889969" name="Default Changelist" comment="designed templates for all except teacher and student templates">
+      <change beforePath="$PROJECT_DIR$/.idea/Deutro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Deutro.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deutro/api_urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deutro/frontend_urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deutro/hosts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deutro/middleware.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Deutro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deutro/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/middleware.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deutro/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deutro/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/management/commands/create_domain.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/management/commands/create_tenant.py" beforeDir="false" afterPath="$PROJECT_DIR$/commands/management/commands/create_tenant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/apps.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/serializer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/school/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/school/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/migrations/0002_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/migrations/0003_session_subjects.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/migrations/0004_auto_20210609_1504.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/migrations/0005_auto_20210609_1515.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/school/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/school/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tenant/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tenant/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/shared/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/app_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/app_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/auth/user/add_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/auth/user/change_password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/base_site.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/change_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/change_form_object_tools.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/change_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/change_list_object_tools.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/change_list_results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/date_hierarchy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/delete_confirmation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/delete_selected_confirmation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/edit_inline/stacked.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/edit_inline/tabular.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/filter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/includes/fieldset.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/includes/object_delete_summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/invalid_setup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/nav_sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/object_history.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/pagination.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/popup_response.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/prepopulated_fields_js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/search_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/submit_line.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/widgets/clearable_file_input.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/widgets/foreign_key_raw_id.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/widgets/many_to_many_raw_id.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/widgets/radio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/widgets/related_widget_wrapper.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/widgets/split_datetime.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/widgets/url.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tenant/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tenant/migrations/0002_initial.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/users/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
     </list>
     <list id="8dac1c58-037c-4f04-8cc3-e923997efdd2" name="edit .gitignore" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +120,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="django_tenant_schema" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -91,26 +139,26 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/commands" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\melet\PycharmProjects\Deutro" />
+      <recent name="C:\Users\melet\PycharmProjects\Deutro\Deutro\static" />
+      <recent name="C:\Users\melet\PycharmProjects\Deutro\commands" />
+      <recent name="C:\Users\melet\PycharmProjects\Deutro\teacher\migrations" />
+      <recent name="C:\Users\melet\PycharmProjects\Deutro\subject\migrations" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\melet\PycharmProjects\Deutro" />
       <recent name="C:\Users\melet\PycharmProjects\Deutro\customer" />
       <recent name="C:\Users\melet\PycharmProjects\Deutro\Deutro\templatetags" />
       <recent name="C:\Users\melet\PycharmProjects\Deutro\Deutro" />
       <recent name="C:\Users\USER\PycharmProjects\Deutro\templates" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\melet\PycharmProjects\Deutro\commands" />
-      <recent name="C:\Users\melet\PycharmProjects\Deutro" />
-      <recent name="C:\Users\melet\PycharmProjects\Deutro\teacher\migrations" />
-      <recent name="C:\Users\melet\PycharmProjects\Deutro\subject\migrations" />
-      <recent name="C:\Users\melet\PycharmProjects\Deutro\student\migrations" />
     </key>
   </component>
   <component name="RunManager" selected="Shell Script.script.bash">
@@ -224,7 +272,8 @@
       <workItem from="1623074557818" duration="7035000" />
       <workItem from="1623144117010" duration="585000" />
       <workItem from="1623144731557" duration="7283000" />
-      <workItem from="1623403675985" duration="10378000" />
+      <workItem from="1623403675985" duration="14435000" />
+      <workItem from="1623418582651" duration="6304000" />
     </task>
     <task id="LOCAL-00001" summary="Created Models and added to admin">
       <created>1546659391397</created>
@@ -356,10 +405,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="267" y="19" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1623136960081" />
-    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623413990394">
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623416506925">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1623413990394" />
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1623416506925" />
     <state width="834" height="161" key="GridCell.Tab.0.bottom" timestamp="1623244469533">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -384,10 +433,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="530" y="208" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1623153148605" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1623403931290">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1623418933682">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1623403931290" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1623418933682" />
     <state x="489" y="255" key="VCS.ChangelistChooser" timestamp="1623151138911">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
