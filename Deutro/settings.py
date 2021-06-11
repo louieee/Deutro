@@ -25,8 +25,36 @@ CELERY_RESULT_SERIALIZER = 'json'
 CELERY_TIMEZONE = 'Africa/Nigeria'
 
 # Application definition
+SHARED_APPS = (
+    'tenant_schemas',  # mandatory, should always be before any django app
+    'school', # you must list the app where your tenant model resides in
+    'shared',
+    'domain',
+    'django.contrib.contenttypes',
+    # everything below here is optional
+    'django.contrib.auth',
+    'django.contrib.sessions',
+    'django.contrib.sites',
+    'django.contrib.messages',
+    'django.contrib.admin',
+)
+
+TENANT_APPS = (
+    'django.contrib.contenttypes',
+
+    # your tenant-specific apps
+    'tenant',
+    'users',
+    'django.contrib.auth',
+    'django.contrib.sessions',
+    'django.contrib.sites',
+    'django.contrib.messages',
+    'django.contrib.admin',
+
+)
 
 INSTALLED_APPS = [
+    'tenant_schemas',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -37,6 +65,8 @@ INSTALLED_APPS = [
     'users',
     'school',
     'domain',
+    'shared',
+    'tenant',
     'django_hosts',
     'rest_framework',
     'channels'
@@ -45,6 +75,8 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django_hosts.middleware.HostsRequestMiddleware',
+    'tenant_schemas.middleware.TenantMiddleware',
+    'Deutro.middleware.MyDefaultTenantMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -56,9 +88,13 @@ MIDDLEWARE = [
     'django_hosts.middleware.HostsResponseMiddleware',
 ]
 
+
+TENANT_MODEL = "school.School"
+
 ROOT_URLCONF = 'Deutro.urls'
 ROOT_HOSTCONF = 'Deutro.hosts'
 DEFAULT_HOST = 'www'
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -71,6 +107,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+
             ],
             'builtins': ['django_hosts.templatetags.hosts_override', ]
         },
@@ -87,8 +124,16 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     },
+    'default_': {
+            'ENGINE': 'tenant_schemas.postgresql_backend',
+            # ..
+        }
 
 }
+
+DATABASE_ROUTERS = (
+    'tenant_schemas.routers.TenantSyncRouter',
+)
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
@@ -113,6 +158,13 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
+# CACHES = {
+#     "default": {
+#         'KEY_FUNCTION': 'tenant_schemas.cache.make_key',
+#         'REVERSE_KEY_FUNCTION': 'tenant_schemas.cache.reverse_key',
+#     },
+# }
+
 TIME_ZONE = 'UTC'
 
 USE_I18N = True
@@ -130,6 +182,10 @@ STATIC_URL = '/static/'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+DEFAULT_FILE_STORAGE = 'tenant_schemas.storage.TenantFileSystemStorage'
+
+
+
 LOGOUT_REDIRECT_URL = '/'
 
 AUTH_USER_MODEL = 'users.User'

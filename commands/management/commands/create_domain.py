@@ -19,6 +19,7 @@ class Command(BaseCommand):
         super().__init__(*args, **kwargs)
         self.DomainModel = Domain
         self.domain_field = self.DomainModel._meta.get_field('domain')
+        self.type_field = self.DomainModel._meta.get_field('type')
         self.name_field = self.DomainModel._meta.get_field('name')
 
     def add_arguments(self, parser):
@@ -36,6 +37,10 @@ class Command(BaseCommand):
             '--%s' % 'name', dest='name', default=None,
             help='Specifies the name',
         )
+        parser.add_argument(
+            '--%s' % 'type', dest='type', default=None,
+            help='Specifies the domain type',
+        )
 
     def execute(self, *args, **options):
         self.stdin = options.get('stdin', sys.stdin)  # Used for testing
@@ -45,8 +50,10 @@ class Command(BaseCommand):
         domain = options['domain']
         name = options['name']
         database = options['database']
+        type_ = options['type']
         verbose_domain_field_name = self.domain_field.verbose_name
         verbose_name_field_name = self.name_field.verbose_name
+        verbose_type_field_name = self.type_field.verbose_name
         # Enclose this whole thing in a try/except to catch
         # KeyboardInterrupt and exit gracefully.
         try:
@@ -74,6 +81,13 @@ class Command(BaseCommand):
                     continue
             if not name:
                 raise CommandError('%s cannot be blank.' % capfirst(verbose_domain_field_name))
+            while type_ is None:
+                input_msg = '%s: ' % capfirst(verbose_type_field_name)
+                type_ = self.get_input_data(self.type_field, input_msg)
+                if not type_:
+                    continue
+            if not type_:
+                raise CommandError('%s cannot be blank.' % capfirst(verbose_type_field_name))
         except KeyboardInterrupt:
             self.stderr.write("\nOperation cancelled.")
             sys.exit(1)
@@ -81,10 +95,11 @@ class Command(BaseCommand):
             self.stdout.write(
                 "Domain creation skipped due to not running in a TTY. "
             )
-        if domain and name:
+        if domain and name and type_:
             domain_data = {
                 'domain': domain,
                 'name': name,
+                'type': type_
             }
             self.DomainModel(**domain_data).save()
             if options['verbosity'] >= 1:

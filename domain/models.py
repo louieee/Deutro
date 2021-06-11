@@ -41,8 +41,14 @@ class DomainManager(models.Manager):
 
 
 class Domain(models.Model):
+    class Choice:
+        api, base, admin, sub_domain = range(4)
+        type = (
+            (api, 'API'), (base, 'BASE'), (admin, 'ADMIN'), (sub_domain, 'SUB DOMAIN')
+        )
     domain = models.CharField(max_length=128, unique=True)
     name = models.CharField(max_length=128)
+    type = models.PositiveSmallIntegerField(choices=Choice.type, default=Choice.base)
     objects = DomainManager()
 
     def __str__(self):

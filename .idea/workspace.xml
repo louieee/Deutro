@@ -20,15 +20,24 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:working" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:django_tenant_schema" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01593eba-d2bb-4c5b-bde5-a18b28889969" name="Default Changelist" comment="designed templates for all except teacher and student templates">
+      <change beforePath="$PROJECT_DIR$/.idea/Deutro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Deutro.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deutro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deutro/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/management/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/management/commands/create_domains.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/domain/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/school/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/school/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/school/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/school/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
     </list>
     <list id="8dac1c58-037c-4f04-8cc3-e923997efdd2" name="edit .gitignore" comment="" />
@@ -79,26 +88,26 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/commands" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\melet\PycharmProjects\Deutro" />
-      <recent name="C:\Users\melet\PycharmProjects\Deutro\teacher\migrations" />
-      <recent name="C:\Users\melet\PycharmProjects\Deutro\subject\migrations" />
-      <recent name="C:\Users\melet\PycharmProjects\Deutro\student\migrations" />
-      <recent name="C:\Users\melet\PycharmProjects\Deutro\school\migrations" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\melet\PycharmProjects\Deutro" />
       <recent name="C:\Users\melet\PycharmProjects\Deutro\customer" />
       <recent name="C:\Users\melet\PycharmProjects\Deutro\Deutro\templatetags" />
       <recent name="C:\Users\melet\PycharmProjects\Deutro\Deutro" />
       <recent name="C:\Users\USER\PycharmProjects\Deutro\templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\melet\PycharmProjects\Deutro\commands" />
+      <recent name="C:\Users\melet\PycharmProjects\Deutro" />
+      <recent name="C:\Users\melet\PycharmProjects\Deutro\teacher\migrations" />
+      <recent name="C:\Users\melet\PycharmProjects\Deutro\subject\migrations" />
+      <recent name="C:\Users\melet\PycharmProjects\Deutro\student\migrations" />
     </key>
   </component>
   <component name="RunManager" selected="Shell Script.script.bash">
@@ -212,6 +221,7 @@
       <workItem from="1623074557818" duration="7035000" />
       <workItem from="1623144117010" duration="585000" />
       <workItem from="1623144731557" duration="7283000" />
+      <workItem from="1623403675985" duration="7807000" />
     </task>
     <task id="LOCAL-00001" summary="Created Models and added to admin">
       <created>1546659391397</created>
@@ -296,6 +306,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -307,7 +320,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="clean_sheets" />
+                        <option value="django_tenant_schema" />
                       </list>
                     </value>
                   </entry>
@@ -368,10 +381,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="530" y="208" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1623153148605" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1623057583663">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1623403931290">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1623057583663" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1623403931290" />
     <state x="489" y="255" key="VCS.ChangelistChooser" timestamp="1623151138911">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
